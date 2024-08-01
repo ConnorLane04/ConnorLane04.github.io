@@ -79,7 +79,7 @@ If you like, we can encode all of this information in an exact sequence
 
 Here, the map $\iota$ is the inclusion map.
 
-**Exercise:** Try proving case 1 in the style of case 2. I have included a hint at the bottom of this blogpost
+**Exercise:** Try proving case 1 in the style of case 2. Hint[^1]
 
 ### Adendum: Galois Cohomology
 
@@ -133,4 +133,4 @@ This almost implies that $y\in L^\times I_G$, except theres one technicality: th
 
 This group, $\hat{H}^{-1}(L/K,A)$ is part of a series of infinite groups, $\hat{H}^i(L/K,A)$ for $i\in \mathbb{Z}$, called the Tate cohomology groups. There's also a similar series of groups $H^i(L/K,A)$, which are the regular Galois cohomology groups. Together, these form extremely refined invariants of a $\mathbb{Z}[G]$-module $A$ that can enable a ton of algebraic number theory and arithmetic geometry. Hopefully, the concrete problem of determining the structure of $\text{SO}_2(K)$ has helped motivate why some of these constructions are interesting. 
 
-**Hint for the Exercise:** In case 1, $K(i)$ makes no sense since $i$ is already in $K$. Instead you want to work with $K[x]/(x^2-1)$. What's the structure of this ring?
+[^1]: In case 1, $K(i)$ makes no sense since $i$ is already in $K$. Instead you want to work with $K[x]/(x^2-1)$. What's the structure of this ring?
