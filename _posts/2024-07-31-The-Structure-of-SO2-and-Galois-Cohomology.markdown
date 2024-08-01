@@ -63,7 +63,7 @@ For step one, we see that by definition $x\in \text{Ker}(\delta)$ if and only if
 
 Now for step two, we can do this by direct computation, verifying that $N(\delta(x))=1$:
 
-$$N(\delta(x))=N\left(\frac{x}{\bar{x}}\right)=\frac{x}{\bar{x}}\bar{\frac{x}{\bar{x}}}=\frac{x}{\bar{x}}\frac{\bar{x}}{x}=1.$$
+$$N(\delta(x))=N\left(\frac{x}{\bar{x}}\right)=\frac{x}{\bar{x}}\overline{\frac{x}{\bar{x}}}=\frac{x}{\bar{x}}\frac{\bar{x}}{x}=1.$$
 
 Now we have step three, our challenge is as follows: Suppose $y\in K(i)^\times$ such that $N(y)=1$. Can we construct an $x\in K(i)^\times$ such that $y=\delta(x)$? To do this, we will set $x=1+y$, then
 
