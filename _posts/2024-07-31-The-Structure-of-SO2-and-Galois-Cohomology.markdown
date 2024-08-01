@@ -7,7 +7,7 @@ categories: Galois-Cohomology
 
 Let $K$ be a field, we can define the special orthogonal group $\text{SO}_2(K)$ as a matrix group
 
-$$\text{SO}_2(K)=\left\\{\begin{pmatrix}a & b \\ -b & a\end{pmatrix}\in \text{GL}_2(K):a^2+b^2=1\right\\}.$$
+$$\text{SO}_2(K)=\left\{\begin{pmatrix}a & b \\ -b & a\end{pmatrix}\in \text{GL}_2(K):a^2+b^2=1\right\}.$$
 
 One natural question to ask here is whether there is an alternative description of the group structure of $\text{SO}_2(K)$ under multiplication that are perhaps easier to get a grasp on. This turns out to have an answer but to say it we establish some terminology. We will say that $i\in K$ if the polynomial equation $x^2+1=0$ has a solution in $K$. In general, $i$ will always denote a solution to this polynomial equation. With this in mind, we can state the structure theorem for $\text{SO}_2(K)$.
 
@@ -35,7 +35,7 @@ $$\begin{pmatrix}\frac{x+x^{-1}}{2} & \frac{x-x^{-1}}{2i} \\ -\frac{x-x^{-1}}{2i
 
 **Case 2:** $i\not \in K$. This case will take a bit more work, but we will also take a slightly more conceptual approach. We make the following observation: define a $2$-dimensional $K$-algebra $A$ by
 
-$$A=\left\\{\begin{pmatrix} a & b \\ -b & a\end{pmatrix}:a,b\in K\right\\}$$
+$$A=\left\{\begin{pmatrix} a & b \\ -b & a\end{pmatrix}:a,b\in K\right\}$$
 
 Note that we have a map $\text{det}:A\to K$, and $\text{SO}_2(K)=\text{Ker}(\text{det}:A^\times\to K^\times)$. Now, $A$ is isomorphic to a different object that might be more familiar: $K(i)$. We have an isomorphism $\varphi:K(i)\to A$ given by
 
@@ -89,7 +89,7 @@ Here's the setup: let $L/K$ be a finite Galois extension of fields, and let $G=\
 
 What is $\mathbb{Z}[G]$? As a set, it is
 
-$$\mathbb{Z}[G]=\left\\{\sum_{g\in G}a_g[g]:a_g\in \mathbb{Z}\right\\}$$
+$$\mathbb{Z}[G]=\left\{\sum_{g\in G}a_g[g]:a_g\in \mathbb{Z}\right\}$$
 
 The $[g]$ are just symbols that satisfy a certain multiplication law, which is that $[g] [h]=[gh]$. The multiplication for all of $\mathbb{Z}[G]$ simply extends linearly.
 
