@@ -22,7 +22,7 @@ title: Connor Lane's Homepage
 email: lanecf@rose-hulman.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Connor Lane's homepage. Mostly for my mathematical ranting
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "ConnorLane04" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  ConnorLane04
