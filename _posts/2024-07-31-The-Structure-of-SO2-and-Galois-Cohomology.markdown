@@ -9,15 +9,15 @@ Let $K$ be a field, we can define the special orthogonal group $\text{SO}_2(K)$ 
 
 $$\text{SO}_2(K)=\left\{\begin{pmatrix}a & b \\ -b & a\end{pmatrix}\in \text{GL}_2(K):a^2+b^2=1\right\}.$$
 
-One natural question to ask here is whether there is an alternative description of the group structure of $\text{SO}_2(K)$ under multiplication that are perhaps easier to get a grasp on. This turns out to have an answer but to say it we establish some terminology. We will say that $i\in K$ if the polynomial equation $x^2+1=0$ has a solution in $K$. In general, $i$ will always denote a solution to this polynomial equation. With this in mind, we can state the structure theorem for $\text{SO}_2(K)$.
+One natural question to ask here is whether there is an alternative description of the group structure of $\text{SO}_2(K)$ under multiplication that is perhaps easier to grasp. This turns out to have an answer but to say it we must establish some terminology: We will say that $i\in K$ if the polynomial equation $x^2+1=0$ has a solution in $K$, and $i\not \in K$ if it does not. Moreover, $i$ will always denote a solution to this polynomial equation. With this in mind, we can state the structure theorem for $\text{SO}_2(K)$.
 
 **Theorem 1:** Let $K$ be a field. Then if $i\in K$, $\text{SO}_2(K)\cong K^\times$, the multiplicative group of $K$. If $i\not \in K$, then $\text{SO}_2(K)\cong K(i)^\times/K^\times$.
 
-The proof of this theorem that I present will look slightly ad-hoc. However, it is all a reflection of Galois cohomology, and in the second half of this blog post I will use the solution to this problem to introduce some basic concepts in Galois cohomology.
+The proof of this theorem that I present will look slightly ad-hoc. However, it is all a reflection of Galois cohomology, and in the second half of this blog post, I will use the solution to this problem to introduce some basic concepts in Galois cohomology.
 
 *Proof of Theorem 1:* We will handle the case of $i\in K$ and $i\not \in K$ separately, as they are quite different.
 
-**Case 1:** $i\in K$. In this case, we see that the condition $a^2+b^2=1$ factors as $(a+bi)(a-bi)=1$. Inspired by this, we will define a map $\varphi:K^\times\to \text{SO}_2(K)$ by letting $\varphi(x)$ be the solution to the system equations
+**Case 1:** $i\in K$. In this case, the condition $a^2+b^2=1$ factors as $(a+bi)(a-bi)=1$. Inspired by this, we will define a map $\varphi:K^\times\to \text{SO}_2(K)$ by letting $\varphi(x)$ be the solution to the system equations
 
 $$
 \begin{cases}
@@ -29,7 +29,7 @@ If we work out the solution to this system of equations, we get the following ex
 
 $$\varphi(x)=\left(\frac{x+x^{-1}}{2} \qquad \frac{x-x^{-1}}{2i}\right)$$
 
-This map also has an inverse, given by $(a,b)\mapsto a+bi$. These are clearly seen to be inverses, so we just have to verify that $\varphi$ is actually a homomorphism. But this can be done by directly: for $x,y\in K^\times$, we have by computation
+This map also has an inverse, given by $(a,b)\mapsto a+bi$. These are clearly seen as inverses, so we just have to verify that $\varphi$ is a homomorphism. But this can be done by directly: for $x,y\in K^\times$, we have by computation
 
 $$\begin{pmatrix}\frac{x+x^{-1}}{2} & \frac{x-x^{-1}}{2i} \\ -\frac{x-x^{-1}}{2i} & \frac{x+x^{-1}}{2} \end{pmatrix}\begin{pmatrix}\frac{y+y^{-1}}{2} & \frac{y-y^{-1}}{2i} \\ -\frac{y-y^{-1}}{2i} & \frac{y+y^{-1}}{2} \end{pmatrix}=\begin{pmatrix}\frac{xy+(xy)^{-1}}{2} & \frac{xy-(xy)^{-1}}{2i} \\ -\frac{xy-(xy)^{-1}}{2i} & \frac{xy+(xy)^{-1}}{2} \end{pmatrix}.$$
 
@@ -49,7 +49,7 @@ All this information can be combined in the following commutative diagram
 
 <div align="center"><iframe class="quiver-embed" src="https://q.uiver.app/#q=WzAsNCxbMCwwLCJLKGkpIl0sWzAsMSwiSyJdLFsxLDEsIksiXSxbMSwwLCJBIl0sWzAsMywiXFx2YXJwaGkiXSxbMCwxLCJOIiwyXSxbMywyLCJcXHRleHR7ZGV0fSJdLFsxLDIsIlxcdGV4dHtpZH0iXV0=&embed" width="304" height="304" style="border-radius: 8px; border: none;"></iframe></div>
 
-All this tells us that we have an isomorphism $\text{Ker}(N:K(i)^\times\to K^\times)\cong \text{SO}_2(K)$. The upshot of this is that instead of studying matrices, we can just work with in the field $K(i)$. Now that we have this perspective, I want to introduce a group homomorphism that I will call $\delta$. This will map $K(i)^\times$ to $K(i)^\times$, and it is given by the formula
+All this tells us that we have an isomorphism $\text{Ker}(N:K(i)^\times\to K^\times)\cong \text{SO}_2(K)$. The upshot of this is that instead of studying matrices, we can just work within the field $K(i)$. Now that we have this perspective, I want to introduce a group homomorphism that I will call $\delta$. This will map $K(i)^\times$ to $K(i)^\times$, and it is given by the formula
 
 $$\delta(x)=\frac{x}{\bar{x}}.$$
 
@@ -81,11 +81,11 @@ Here, the map $\iota$ is the inclusion map.
 
 **Exercise:** Try proving case 1 in the style of case 2. Hint[^1]
 
-### Adendum: Galois Cohomology
+### Addendum: Galois Cohomology
 
 This section is completely unnecessary to a basic understanding of everything that proceeded it in the post. However, it does put everything done on a more conceptual ground and introduces a very important tool in number theory: Galois cohomology. See, what was actually done in the proof of case 2 was a very special case of a foundational result in Galois cohomology, called Hilbert's theorem 90, that I hope to introduce here. The following will assume familiarity with the Galois correspondence and modules.
 
-Here's the setup: let $L/K$ be a finite Galois extension of fields, and let $G=\text{Gal}(L/K)$ be the Galois group of this extension. The first thing to realize that objects defined in terms of $L$ should be understood as having an action of $G$. This is a very general principle, but all we need here is that $L^\times$ is not just an abelian group, but a module over a (noncommutative) ring called $\mathbb{Z}[G]$.
+Here's the setup: let $L/K$ be a finite Galois extension of fields, and let $G=\text{Gal}(L/K)$ be the Galois group of this extension. The first thing to realize is that objects defined in terms of $L$ should be understood as having an action of $G$. This is a very general principle, but all we need here is that $L^\times$ is not just an abelian group, but a module over a (noncommutative) ring called $\mathbb{Z}[G]$.
 
 What is $\mathbb{Z}[G]$? As a set, it is
 
@@ -111,7 +111,7 @@ this is called the $-1$st Tate cohomology group of $A$ (Exercise: show that this
 
 **Theorem 2:** (Hilbert $90$) Let $L/K$ be a cyclic Galois extension of fields. Then $\hat{H}^{-1}(L/K,L^\times)\cong 0$.
 
-This theorem was proven by Kummer in the $1850$s. (Hilbert's name is only on it because this was the $90$th theorem is his Zahlbericht.) This is not what will often be stated as Hilbert $90$ in many modern texts, instead they will state a generalization by Emmy Noether in the $1930$s, but this generalization is surprisingly unimportant for our story. (That does not, however, mean Noether's version is unimportant. It is in fact very important and is *the* foundational result in Galois cohomology.)
+This theorem was proven by Kummer in the $1850$s. (Hilbert's name is only on it because this was the $90$th theorem in his Zahlbericht.) This is not what will often be stated as Hilbert $90$ in many modern texts, instead, they will state a generalization by Emmy Noether in the $1930$s, but this generalization is surprisingly unimportant for our story. (That does not, however, mean Noether's version is unimportant. It is in fact very important and is *the* foundational result in Galois cohomology.)
 
 *Proof:* Let $y\in \text{Ker}(N)$ and let $G=\text{Gal}(L/K)=\langle \sigma \rangle\cong \mathbb{Z}/n\mathbb{Z}$. We wish to show that $y\in AI_G$. In this case, we can actually write $I_G$ as the principal ideal $(1-\sigma)$, so this is equivalent to showing that $y=x^{1-\sigma}$ for some $x$. I will introduce a rather unusual function $x(t)$ defined on $L$.
 
@@ -129,8 +129,8 @@ so
 
 $$x(t)^\sigma=y^{-1}x(t) \Longrightarrow y=x(t)/x(t)^h.$$
 
-This almost implies that $y\in L^\times I_G$, except theres one technicality: the possibility that $x(t)$ is $0$. However, there is always some value of $t$ such that $x(t)\neq 0$. To show this, note that $x(t)$ is a nonzero linear combination of field automorphisms. But field automorphisms are known to be linearly independent (see for example Marcus Number Fields Ch. 4 Ex. 15.) so we are done. $\qquad \square$
+This almost implies that $y\in L^\times I_G$, except there is one technicality: the possibility that $x(t)$ is $0$. However, there is always some value of $t$ such that $x(t)\neq 0$. To show this, note that $x(t)$ is a nonzero linear combination of field automorphisms. But field automorphisms are known to be linearly independent (see for example Marcus Number Fields Ch. 4 Ex. 15.) so we are done. $\qquad \square$
 
 This group, $\hat{H}^{-1}(L/K,A)$ is part of a series of infinite groups, $\hat{H}^i(L/K,A)$ for $i\in \mathbb{Z}$, called the Tate cohomology groups. There's also a similar series of groups $H^i(L/K,A)$, which are the regular Galois cohomology groups. Together, these form extremely refined invariants of a $\mathbb{Z}[G]$-module $A$ that can enable a ton of algebraic number theory and arithmetic geometry. Hopefully, the concrete problem of determining the structure of $\text{SO}_2(K)$ has helped motivate why some of these constructions are interesting. 
 
-[^1]: In case 1, $K(i)$ makes no sense since $i$ is already in $K$. Instead you want to work with $K[x]/(x^2-1)$. What's the structure of this ring?
+[^1]: In case 1, $K(i)$ makes no sense since $i$ is already in $K$. Instead, you want to work with $K[x]/(x^2-1)$. What's the structure of this ring?
