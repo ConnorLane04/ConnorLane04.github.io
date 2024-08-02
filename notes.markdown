@@ -3,7 +3,7 @@ layout: "page"
 title: Notes
 ---
 
-This page is a collection of various pdfs on topics that I've written up.
+This page is a collection of various PDFs on topics that I've written up.
 
 * [An Alternative Proof of Tate's Lemma][1]
 
