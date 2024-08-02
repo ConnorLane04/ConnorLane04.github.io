@@ -6,7 +6,7 @@ layout: home
 title: Home
 ---
 
-I'm a 19-year-old undergraduate at [Rose-Hulman](https://www.rose-hulman.edu/) about to start my third and final year of my degree. Along the way, I am picking up minors in computer science and theoretical physics. When I'm not doing math, you can usually find me hiking, skiing, or generally enjoying the outdoors. I also love sharing mathematics with others, for example as a Counselor for [Ross](https://rossprogram.org/).
+I'm a 19-year-old undergraduate at [Rose-Hulman](https://www.rose-hulman.edu/) about to start the third and final year of my degree. Along the way, I am picking up minors in computer science and theoretical physics. When I'm not doing math, you can usually find me hiking, skiing, or generally enjoying the outdoors. I also love sharing mathematics with others, for example as a Counselor for [Ross](https://rossprogram.org/).
 
 I like basically every topic in pure math, but my particular favorite subject is algebraic number theory, especially Iwasawa theory and Galois cohomology. I'm currently on a quest to read and understand all of Neukirch, Schmidt, and Wingberg's [Cohomology of Number Fields](https://link.springer.com/book/10.1007/978-3-540-37889-1), which is a book I owe a lot of my mathematical development to.
 
