@@ -27,7 +27,7 @@ $$
 
 If we work out the solution to this system of equations, we get the following explicit form of $\varphi$
 
-$$\varphi(x)=\left(\frac{x+x^{-1}}{2} \qquad \frac{x-x^{-1}}{2i}\right)$$
+$$\varphi(x)=\left(\frac{x+x^{-1}}{2}, \frac{x-x^{-1}}{2i}\right)$$
 
 This map also has an inverse, given by $(a,b)\mapsto a+bi$. These are clearly seen as inverses, so we just have to verify that $\varphi$ is a homomorphism. But this can be done by directly: for $x,y\in K^\times$, we have by computation
 
@@ -93,7 +93,7 @@ $$\mathbb{Z}[G]=\left\{\sum_{g\in G}a_g[g]:a_g\in \mathbb{Z}\right\}$$
 
 The $[g]$ are just symbols that satisfy a certain multiplication law, which is that $[g] [h]=[gh]$. The multiplication for all of $\mathbb{Z}[G]$ simply extends linearly.
 
-How is $L^\times$ a $\mathbb{Z}[G]$ module? Well, the Galois group $G$ basically definitionally acts on $L$, so the $\mathbb{Z}[G]$-module structure comes from combining the action of $G$ and the natural $\mathbb{Z}$-module structure of any abelian group. More specifically, if $x\in L$ and a=\sum_{g\in G}a_g[g], Then
+How is $L^\times$ a $\mathbb{Z}[G]$ module? Well, the Galois group $G$ basically definitionally acts on $L$, so the $\mathbb{Z}[G]$-module structure comes from combining the action of $G$ and the natural $\mathbb{Z}$-module structure of any abelian group. More specifically, if $x\in L$ and $a=\sum_{g\in G}a_g[g]$, Then
 
 $$x^a=\prod_{g\in G}g(x)^{a_g},$$
 
