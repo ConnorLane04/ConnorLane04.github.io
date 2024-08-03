@@ -107,7 +107,7 @@ then we define $I_G=\text{Ker}(\epsilon)$. Next, let $A$ be a multiplicative rig
 
 $$\hat{H}^{-1}(L/K,A)=\text{ker}(N)/(AI_G),$$
 
-this is called the $-1$st Tate cohomology group of $A$ (Exercise: show that this is well defined, i.e. $AI_G\subseteq \text{Ker}(N)$.) I claim that we can restate Lemma 1, in particular the third step of the proof, as $\hat{H}^{-1}(K(i)/K,K(i)^\times)\cong 0$. If $c\in \text{Gal}(K(i)/K)$ is complex conjugation, then one can show that $I_G=(1-c)$ and $\delta$ is exponentiation by $1-c$. Putting these facts together, it turns out that $K(i)^\times I_G=\text{im}(\delta)$. Since Lemma 1 says that $\text{im}(\delta)=\text{Ker}(N)$, we get that $\hat{H}^{-1}(K(i)/K,K(i)^\times)=\text{ker}(N)/(K(i)^\times I_G)\cong 0$. This admits the following generalization:
+this is called the $-1$st Tate cohomology group of $A$ (Exercise: show that this is well defined, i.e. $AI_G\subseteq \text{Ker}(N)$.) I claim that we can restate Lemma 1, in particular the third step of the proof, as $\hat{H}^{-1}(K(i)/K,K(i)^\times)\cong 0$. If $c\in \text{Gal}(K(i)/K)$ is complex conjugation, then one can show that $I_G=(1-[c])$ and $\delta$ is exponentiation by $1-[c]$. Putting these facts together, it turns out that $K(i)^\times I_G=\text{im}(\delta)$. Since Lemma 1 says that $\text{im}(\delta)=\text{Ker}(N)$, we get that $\hat{H}^{-1}(K(i)/K,K(i)^\times)=\text{ker}(N)/(K(i)^\times I_G)\cong 0$. This admits the following generalization:
 
 **Theorem 2:** (Hilbert $90$) Let $L/K$ be a cyclic Galois extension of fields. Then $\hat{H}^{-1}(L/K,L^\times)\cong 0$.
 
@@ -115,19 +115,19 @@ This theorem was proven by Kummer in the $1850$s. (Hilbert's name is only on it 
 
 *Proof:* Let $y\in \text{Ker}(N)$ and let $G=\text{Gal}(L/K)=\langle \sigma \rangle\cong \mathbb{Z}/n\mathbb{Z}$. We wish to show that $y\in AI_G$. In this case, we can actually write $I_G$ as the principal ideal $(1-\sigma)$, so this is equivalent to showing that $y=x^{1-\sigma}$ for some $x$. I will introduce a rather unusual function $x(t)$ defined on $L$.
 
-$$x(t)=\sum_{j=0}^{n-1}t^{\sigma^j} y^{1+\sigma +\cdots+\sigma^{j-1}}$$
+$$x(t)=\sum_{j=0}^{n-1}t^{[\sigma^j]} y^{1+[\sigma] +\cdots+[\sigma^{j-1}]}$$
 
-Now, we want to find a formula for $x(t)^\sigma$.
+Now, we want to find a formula for $x(t)^{[\sigma]}$.
 
-$$x(t)^\sigma=\sum_{j=0}^{n-1}t^{\sigma^j\sigma} y^{(1+\sigma +\cdots+\sigma^{j-1})\sigma}=\sum_{j=0}^{n-1}t^{\sigma^{j+1}}y^{\sigma+\sigma^2+ \cdots+\sigma^{j}}=y^{-1}\sum_{j=0}^{n-1}t^{\sigma^{j+1}}y^{1+\sigma +\cdots+\sigma^{j}}$$
+$$x(t)^{[\sigma]}=\sum_{j=0}^{n-1}t^{[\sigma^j][\sigma]} y^{(1+[\sigma] +\cdots+[\sigma^{j-1}])[\sigma]}=\sum_{j=0}^{n-1}t^{[\sigma]^{j+1}}y^{[\sigma]+[\sigma^2]+ \cdots+[\sigma^{j}]}=y^{-1}\sum_{j=0}^{n-1}t^{[\sigma^{j+1}]}y^{1+[\sigma] +\cdots+[\sigma^{j}]}$$
 
-Now, if we inspect this sum, we notice that it is very similar to $x(t)$. In particular, its $j=0,1,\cdots,{n-2}$ terms correspond to the $j=1,2,\cdots,n-1$ terms of $a(x)$. If we look at the $j=n-1$ term, we get $t^{\sigma^n}y^{1+\sigma+\cdots+\sigma^{n-1}}$. But $\sigma^n=1$, so $x^{\sigma^n}=x$. Furthermore, $a^{1+\sigma+\cdots+\sigma^{n-1}}=N(a)=1$ by assumption, so the $j=n-1$ term of the sum on the right is equal to $y$, which is precisely the $j=0$ term of $x(t)$. The upshot of this is that
+Now, if we inspect this sum, we notice that it is very similar to $x(t)$. In particular, its $j=0,1,\cdots,{n-2}$ terms correspond to the $j=1,2,\cdots,n-1$ terms of $x(t)$. If we look at the $j=n-1$ term, we get $t^{[\sigma^n]}y^{1+[\sigma]+\cdots+[\sigma^{n-1}]}$. But $[\sigma^n]=1$, so $x^{[\sigma^n]}=x$. Furthermore, $a^{1+[\sigma]+\cdots+[\sigma^{n-1}]}=N(a)=1$ by assumption, so the $j=n-1$ term of the sum on the right is equal to $y$, which is precisely the $j=0$ term of $x(t)$. The upshot of this is that
 
-$$x(t)=\sum_{j=0}^{n-1}t^{\sigma^{j+1}}y^{1+\sigma +\cdots+\sigma^{j}}$$
+$$x(t)=\sum_{j=0}^{n-1}t^{[\sigma^{j+1}]}y^{1+[\sigma] +\cdots+[\sigma^{j}]}$$
 
 so
 
-$$x(t)^\sigma=y^{-1}x(t) \Longrightarrow y=x(t)/x(t)^h.$$
+$$x(t)^{[\sigma]}=y^{-1}x(t) \Longrightarrow y=x(t)/x(t)^{[\sigma]}.$$
 
 This almost implies that $y\in L^\times I_G$, except there is one technicality: the possibility that $x(t)$ is $0$. However, there is always some value of $t$ such that $x(t)\neq 0$. To show this, note that $x(t)$ is a nonzero linear combination of field automorphisms. But field automorphisms are known to be linearly independent (see for example Marcus Number Fields Ch. 4 Ex. 15.) so we are done. $\qquad \square$
 
