@@ -1,6 +1,6 @@
 The prime number $2$ is famously an exceptional case in many theorems from number theory.
 
-[Paper]({{ site.url }}{{ site.baseurl }}/downloads/2isbad.png)
+![Paper]({{ site.url }}{{ site.baseurl }}/downloads/2isbad.png)
 
 A while ago, I set out to "understand" why $2$ is such a terrible case, and after over a year of thinking of this problem and seeing its various incarnations, I think I finally have an answer that satisfies me. I believe most instances of $2$ being poorly behaved come down to one of three reasons, which I hope to explain. Interestingly, not all of these reasons have anything to do with $2$ being a small number, which suggests there is more to this than the common reasoning that $2$ is simply too small to behave well.
 
