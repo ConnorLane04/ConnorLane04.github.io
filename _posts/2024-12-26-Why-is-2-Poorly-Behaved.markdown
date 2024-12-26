@@ -43,7 +43,7 @@ Let $\mathbb{Z}\_p$ be the $p$-adic integers, $\mathbb{Z}\_p^\times$ the units o
 
 $$\log_p(1+x)=x-\frac{x^2}{2}+\frac{x^3}{3}-\cdots,$$
 
-this converges for all $1+x\in U^1_p$, or equivalently $\| x-1\|_p<1$. The $p$-adic logarithm is an extremely useful tool for studying $U_1$ because it turns out to almost be an isomorphism. Its near-inverse is given by the $p$-adic exponential $\exp_p$ 
+this converges for all $1+x\in U^1_p$, or equivalently $\| (1+x)-1\|_p<1$. The $p$-adic logarithm is an extremely useful tool for studying $U_1$ because it turns out to almost be an isomorphism. Its near-inverse is given by the $p$-adic exponential $\exp_p$ 
 
 $$\exp_p(x)=1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+\cdots.$$
 
