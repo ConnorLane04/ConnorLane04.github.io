@@ -5,7 +5,7 @@ date:   2024-12-26 00:00:00 -0400
 categories: Algebraic-Number-Theory, Galois-Cohomology
 ---
 
-The prime number $2$ is famously an exceptional case in many theorems from number theory. $a_p$ eda $b_p$
+The prime number $2$ is famously an exceptional case in many theorems from number theory.
 
 ![Paper]({{ site.url }}{{ site.baseurl }}/downloads/2isbad.png)
 
@@ -49,7 +49,7 @@ $$\exp_p(x)=1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+\cdots.$$
 
 Now, $\exp_p$ has a pretty terrible radius of convergence. Unlike $\log$ which had radius of convergence $1$, the $p$-adic exponential has radius of convergence $\| x\|_p<p^{-1/(p-1)}.$ What does this translate to in practice? Well, let $q=p$ if $p>2$ and $q=4$ if $p=2$. It turns out that $\exp_p(x)$ is defined exactly when $x\in q\mathbb{Z}_p$. Since $\exp_p$ and $\log_p$ invert each other *formally*, they define an isomorphism
 
-$$\mathbb{Z}_p\cong q\mathbb{Z}_p=\text{Domain}(\exp_p)\cong \text{Im}(\exp_p)\subseteq U^1_p$$
+$$\mathbb{Z}\_p\cong q\mathbb{Z}\_p=\text{Domain}(\exp_p)\cong \text{Im}(\exp_p)\subseteq U^1_p$$
 
 What exactly is the image of $\exp_p$ then? Well, it turns out that it is exactly $1+q\mathbb{Z}_p$. When $p>2$, we then obtain $\text{Im}(\exp_p)=U^1_p$, but when $p=2$, because $q\neq p$ in this case we get $\text{Im}(\exp_p)\subsetneq U^1_p$. If we then account for this difference, we can obtain the following structure theorem for $U^1_p$
 
@@ -85,7 +85,7 @@ Observe that $X(2)$ is exactly the problem that **Theorem B** solves. This probl
 
 This demonstrates the general principle of reason B: we have a generalization of **Theorem B**, which we call **Theorem $B'(n)$**, such that $B=B'(2)$, and such that $p$ is a "bad prime" of $B(n)$ whenever $p\mid n$. Note that in this case, I am considering a bad prime to be one where the statement involves a congruence condition. This decision is even further justified by the proof of this theorem, where most of the work comes from proving the $p\mid n$ case.
 
-Another place where this reason comes up a lot is in arithmetic geometry. Specifically, we are often interested in curves of some type $K$ over finite fields $\mathbb{F}_q$. For example, we may consider $K=\text{quadratic forms}$. In this case, $2$ is often such a bad prime to the point where we do not even attempt to state the theorems over $\mathbb{F}_{2^n}$. If we do state them, the theory is often so different that we do not even bother to try and develop it in a unified way. (See for example the theory of orthogonal groups of finite fields.) In these cases, the class of curves $K$ often has $2$ as a bad prime. For example, instead of considering quadratic forms we could consider homogeneous polynomials of degree $n$, and we would find that in these cases, the fields $\mathbb{F}_{p^r}$ for $p\mid n$ would be the hard ones to handle.
+Another place where this reason comes up a lot is in arithmetic geometry. Specifically, we are often interested in curves of some type $K$ over finite fields $\mathbb{F}\_q$. For example, we may consider $K=\text{quadratic forms}$. In this case, $2$ is often such a bad prime to the point where we do not even attempt to state the theorems over $\mathbb{F}\_{2^n}$. If we do state them, the theory is often so different that we do not even bother to try and develop it in a unified way. (See for example the theory of orthogonal groups of finite fields.) In these cases, the class of curves $K$ often has $2$ as a bad prime. For example, instead of considering quadratic forms we could consider homogeneous polynomials of degree $n$, and we would find that in these cases, the fields $\mathbb{F}\_{p^r}$ for $p\mid n$ would be the hard ones to handle.
 
 I think this reason is so pervasive because often problems in number theory are so fickle that the general $n$ case is incomparable in difficulty to the $n=2$ case. Because of this, we do not really think about the fact that we are working in a special case when we are doing the $n=2$ case. For example, **Theorem B** can be proven by anyone who knows the definition of the terms involved, while **Theorem $B'(n)$** requires a decent level of fluency in algebraic number theory. For geometric problems, the situation is often even worse. Quadratic forms are almost completely understood number-theoretically, however, higher degree polynomials are still a complete mystery to us.
 
