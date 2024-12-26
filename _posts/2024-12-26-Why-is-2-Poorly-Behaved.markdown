@@ -2,7 +2,7 @@
 layout: post
 title:  "Why is 2 Poorly Behaved?"
 date:   2024-12-26 00:00:00 -0400
-categories: Algebraic Number Theory, Galois-Cohomology
+categories: Algebraic-Number-Theory, Galois-Cohomology
 ---
 
 The prime number $2$ is famously an exceptional case in many theorems from number theory.
