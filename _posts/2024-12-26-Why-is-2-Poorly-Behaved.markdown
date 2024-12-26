@@ -119,7 +119,7 @@ While I feel like I have a good understanding to the question of "why is $2$ bad
 
 There's a sense in which reason A is a special case of reason B, but I don't think its complete so I still consider them distinct. Specifically, let $K=\mathbb{Q}(\zeta_p)$ and $\pi=1-\zeta_p$ be the unique prime lying over $p$. Then the local fields $K_{\pi}$ behave remarkably similarly. In particular, their $1$-units all decompose as $\text{im}(\exp_p)\oplus \mu_p$. If you consider this family of local fields, then a lot of the weird behavior for $2$ gets generalized. This is a perspective I find particularly useful in Iwasawa theory, where I often think of $\mathbb{Q}_p(\zeta_p)$ as being like $\mathbb{Q}_2$. 
 
-This analogy is not perfect, however. For example, the cyclotomic $\mathbb{Z}\_p$-extension of $\mathbb{Q}\_p(\zeta_p)$ is $\mathbb{Q}\_p(\zeta\_{p^\infty})$ for $p>2$, but for $p=2$ its $\mathbb{Q}\_p(\zeta\_{p^\infty}+\zeta\_{p^\infty}^{-1})$. (This discrepancy is ironically caused by reason $A$, but this time being applied to the Galois groups $\text{Gal}(\mathbb{Q}\_p(\zeta_{p^\infty})/\mathbb{Q}_p(\zeta_p))\cong U^1_p$.)
+This analogy is not perfect, however. For example, the cyclotomic $\mathbb{Z}\_p$-extension of $\mathbb{Q}\_p(\zeta_p)$ is $\mathbb{Q}\_p(\zeta\_{p^\infty})$ for $p>2$, but for $p=2$ its $\mathbb{Q}\_p(\zeta\_{p^\infty}+\zeta\_{p^\infty}^{-1})$. (This discrepancy is caused by reason $A$, but this time being applied to the Galois groups $\text{Gal}(\mathbb{Q}\_p(\zeta_{p^\infty})/\mathbb{Q}_p(\zeta_p))\cong U^1_p$.)
 
 Nonetheless, I hope this topic was interesting to you.
 
