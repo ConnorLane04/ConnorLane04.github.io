@@ -45,15 +45,15 @@ $$\mathbb{Z}_p\cong q\mathbb{Z}_p=\text{Domain}(\exp_p)\cong \text{Im}(\exp_p)\s
 
 What exactly is the image of $\exp_p$ then? Well, it turns out that it is exactly $1+q\mathbb{Z}_p$. When $p>2$, we then obtain $\text{Im}(\exp_p)=U^1_p$, but when $p=2$, because $q\neq p$ in this case we get $\text{Im}(\exp_p)\subsetneq U^1_p$. If we then account for this difference, we can obtain the following structure theorem for $U^1_p$
 
-$$(*)\qquad \qquad U^1_p\cong \begin{cases}\mathbb{Z}_p & p>2 \\ \mathbb{Z}_p \times (\mathbb{Z}/2\mathbb{Z}) & p=2\end{cases}.$$
+$$(\ast)\qquad \qquad U^1_p\cong \begin{cases}\mathbb{Z}_p & p>2 \\ \mathbb{Z}_p \times (\mathbb{Z}/2\mathbb{Z}) & p=2\end{cases}.$$
 
 You can use this result to find the structure of $\mathbb{Z}_p^\times$ for all $p$, and then reducing mod $p^k$, you can find the structure of $(\mathbb{Z}/p^k\mathbb{Z})^\times$ and prove **Theorem A**.
 
-So, following this proof technique, the "original sin" of $2$ in this case was the fact that we needed to introduce $q$. Specifically, the region of convergence of $\exp_p$ behaved qualitatively different for $p=2$ as it did for $p>2$. If you look at the details of the radius of convergence computation, the key point is that the size of $p$ influences how quickly $\nu_p(n!)$ grows. Because of this, I do believe that this specific type of poor behavior can be explained by "$2$ is small." That being said, I think it is useful to think of the problem here coming from $(*)$. This is because $(*)$ alone can explain a lot of times $2$ is weird. One example of this is the lifting the exponent (LTE) lemma:
+So, following this proof technique, the "original sin" of $2$ in this case was the fact that we needed to introduce $q$. Specifically, the region of convergence of $\exp_p$ behaved qualitatively different for $p=2$ as it did for $p>2$. If you look at the details of the radius of convergence computation, the key point is that the size of $p$ influences how quickly $\nu_p(n!)$ grows. Because of this, I do believe that this specific type of poor behavior can be explained by "$2$ is small." That being said, I think it is useful to think of the problem here coming from $(*)$. This is because $(\ast)$ alone can explain a lot of times $2$ is weird. One example of this is the lifting the exponent (LTE) lemma:
 
 **Lemma 1 (LTE):** Let $p$ be a prime, $x,y$ integers, and $n>0$ a positive integer. Then $\nu_p(x^n-y^n)=\nu_p(x-y)+\nu_p(n)$, unless $p=2$ and $n$ is even, in which case $\nu_p(x^n-y^n)=\nu_p(x-y)+\nu_p(x+y)+\nu_p(n)-1$.
 
-Like **Theorem A**, LTE can be proven by using $(*)$, and once again the two different structures of $U^1_p$ are the sole cause of the two different behaviors. In general, just about any difference between $p=2$ behavior and $p>2$ behavior for theorems about the ring structure of $(\mathbb{Z}/p^k\mathbb{Z})$ can be explained by $(*)$.
+Like **Theorem A**, LTE can be proven by using $(\ast)$, and once again the two different structures of $U^1_p$ are the sole cause of the two different behaviors. In general, just about any difference between $p=2$ behavior and $p>2$ behavior for theorems about the ring structure of $(\mathbb{Z}/p^k\mathbb{Z})$ can be explained by $(\ast)$.
 
 This problem has more advanced appearances: it is unavoidable in algebraic number theory and it especially shows up in Iwasawa theory. However, I think this slightly more elementary discussion (at least elementary relative to Iwasawa theory) illustrates the point well enough.
 
