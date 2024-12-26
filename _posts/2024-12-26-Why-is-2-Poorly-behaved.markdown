@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "The Structure of SO_2 and Galois Cohomology"
+date:   2024-07-31 01:58:18 -0400
+categories: Galois-Cohomology
+---
+
 The prime number $2$ is famously an exceptional case in many theorems from number theory.
 
 ![Paper]({{ site.url }}{{ site.baseurl }}/downloads/2isbad.png)
