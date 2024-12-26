@@ -47,7 +47,7 @@ this converges for all $1+x\in U^1_p$, or equivalently $\| x-1\|_p<1$. The $p$-a
 
 $$\exp_p(x)=1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+\cdots.$$
 
-Now, $\exp_p$ has a pretty terrible radius of convergence. Unlike $\log$ which had radius of convergence $1$, the $p$-adic exponential has radius of convergence $\|x\|_p<p^{-1/(p-1)}.$ What does this translate to in practice? Well, let $q=p$ if $p>2$ and $q=4$ if $p=2$. It turns out that $\exp_p(x)$ is defined exactly when $x\in q\mathbb{Z}_p$. Since $\exp_p$ and $\log_p$ invert each other *formally*, they define an isomorphism
+Now, $\exp_p$ has a pretty terrible radius of convergence. Unlike $\log$ which had radius of convergence $1$, the $p$-adic exponential has radius of convergence $\| x\|_p<p^{-1/(p-1)}.$ What does this translate to in practice? Well, let $q=p$ if $p>2$ and $q=4$ if $p=2$. It turns out that $\exp_p(x)$ is defined exactly when $x\in q\mathbb{Z}_p$. Since $\exp_p$ and $\log_p$ invert each other *formally*, they define an isomorphism
 
 $$\mathbb{Z}_p\cong q\mathbb{Z}_p=\text{Domain}(\exp_p)\cong \text{Im}(\exp_p)\subseteq U^1_p$$
 
