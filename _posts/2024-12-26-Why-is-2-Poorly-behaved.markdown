@@ -27,6 +27,7 @@ $$(\mathbb{Z}/m\mathbb{Z})^\times\cong \prod_{p\mid m} (\mathbb{Z}/p^{\nu_p(m)}\
 Here, $\nu_p$ is the $p$-adic valuation, which takes $m$ to the exponent of $p$ in its prime factorization. Using this idea, we can (this is not completely trivial) reduce the proof of **Theorem A** to just verifying it on prime powers. So, let $p^k$ be a prime power, and we want to see when $(\mathbb{Z}/p^k\mathbb{Z})^\times$ is cyclic. In one elementary solution to this, you end up showing that when $p>2$, $(1+p)$ is an element of exact order $p^{k-1}$. You do this by applying the binomial theorem to $(1+p)^{p^n}$ and then using some results on the divisibility of binomial coefficients.
 
 What goes wrong for $p=2$? Well, in the method I am familiar with, this comes down to the following fact:
+
 $$\nu_p\left(\binom{p}{2}\right)=\begin{cases}1 & p>2 \\ 0 & p=2\end{cases}.$$
 
 I find this explanation unsatisfying because it basically is a computational coincidence. So instead, I will discuss an alternative proof using the $p$-adic exponential.
