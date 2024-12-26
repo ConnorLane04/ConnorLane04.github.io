@@ -97,7 +97,7 @@ I will briefly sketch how the proof of **Theorem C** diverges for $p=2$ and $K$ 
 
 If we take $G_L$ cohomology of this, we obtain
 
-<div align="center"><iframe class="quiver-embed" src="https://q.uiver.app/#q=WzAsNCxbMCwwLCJIXjIoR19MLFxcYmFye0t9XlxcdGltZXMpIl0sWzEsMCwiSF4yKEdfTCxcXGJhcntLfV5cXHRpbWVzKSJdLFsyLDAsIkheMyhHX0wsXFxtdV9wKSJdLFszLDAsIkheMyhHX0wsXFxiYXJ7S31eXFx0aW1lcykiXSxbMCwxLCJbcF0iXSxbMSwyXSxbMiwzXV0=&embed" width="964" height="176" style="border-radius: 8px; border: none;"></iframe></div>
+<div align="center"><iframe class="quiver-embed" src="https://q.uiver.app/#q=WzAsNCxbMCwwLCJIXjIoR19MLFxcYmFye0t9XlxcdGltZXMpIl0sWzEsMCwiSF4yKEdfTCxcXGJhcntLfV5cXHRpbWVzKSJdLFsyLDAsIkheMyhHX0wsXFxtdV9wKSJdLFszLDAsIkheMyhHX0wsXFxiYXJ7S31eXFx0aW1lcykiXSxbMCwxLCJbcF0iXSxbMSwyXSxbMiwzXV0=&embed" width="803" height="147" style="border-radius: 8px; border: none;"></iframe></div>
 
 Now we make heavy use of class field theory, specifically Albert-Brauer-Hasse-Noether. One first obtains $H^3(G_L,\bar{K}^\times)=0$ (which holds independent of the behavior of infinite primes) by considering the exact sequence $0\to \bar{K}^\times \to I\to C$, where $I$ and $C$ are the absolute ideles and absolute idele class group. This then implies that $H^3(G_L,\mu_p)=H^2(G_L,\bar{K}^\times)/pH^2(G_L,\bar{K}^\times)$, so we are done if we can show $H^2(G_L,\bar{K}^\times)$ is $p$-divisible. 
 
