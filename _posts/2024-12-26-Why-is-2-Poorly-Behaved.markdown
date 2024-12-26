@@ -5,7 +5,7 @@ date:   2024-12-26 00:00:00 -0400
 categories: Algebraic-Number-Theory, Galois-Cohomology
 ---
 
-The prime number $2$ is famously an exceptional case in many theorems from number theory.
+The prime number $2$ is famously an exceptional case in many theorems from number theory. TEST
 
 ![Paper]({{ site.url }}{{ site.baseurl }}/downloads/2isbad.png)
 
@@ -39,7 +39,7 @@ $$\nu_p\left(\binom{p}{2}\right)=\begin{cases}1 & p>2 \\ 0 & p=2\end{cases}.$$
 
 I find this explanation unsatisfying because it basically is a computational coincidence. So instead, I will discuss an alternative proof using the $p$-adic exponential.
 
-Let $\mathbb{Z}\_p$ be the $p$-adic integers, $\mathbb{Z}\_p^\times$ the units of the $p$-adic integers, and $U^1\_p\subseteq \mathbb{Z}\_p^\times $ the set of $x\in \mathbb{Z}\_p$ with $x\equiv 1\bmod p$. (This notation $U^1_p$ is slightly nonstandard, but I want to make the dependence on $p$ very explicit.) There is a very important isomorphism $\mathbb{Z}\_p^\times\cong \mu\_{p-1}\times U^1_p$, where $\mu_{p-1}\subseteq \mathbb{Z}_p$ is the group of $p-1$st roots of unity. This reduces studying $\mathbb{Z}_p^\times$ to studying $U^1_p$, which we will now attempt to do. The $p$-adic logarithm is a homomorphism $\log_p:(U_1,\times)\to (\mathbb{Z}_p,+)$ given by a power series:
+Let $\mathbb{Z}\_p$ be the $p$-adic integers, $\mathbb{Z}\_p^\times$ the units of the $p$-adic integers, and $U^1\_p\subseteq \mathbb{Z}\_p^\times $ the set of $x\in \mathbb{Z}\_p$ with $x\equiv 1\bmod p$. (This notation $U^1\_p$ is slightly nonstandard, but I want to make the dependence on $p$ very explicit.) There is a very important isomorphism $\mathbb{Z}\_p^\times\cong \mu\_{p-1}\times U^1\_p$, where $\mu\_{p-1}\subseteq \mathbb{Z}\_p$ is the group of $p-1$st roots of unity. This reduces studying $\mathbb{Z}\_p^\times$ to studying $U^1\_p$, which we will now attempt to do. The $p$-adic logarithm is a homomorphism $\log_p:(U\_1,\times)\to (\mathbb{Z}\_p,+)$ given by a power series:
 
 $$\log_p(1+x)=x-\frac{x^2}{2}+\frac{x^3}{3}-\cdots,$$
 
