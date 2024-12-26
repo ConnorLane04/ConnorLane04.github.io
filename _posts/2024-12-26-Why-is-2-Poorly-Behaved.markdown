@@ -15,7 +15,7 @@ I hope to explain these reasons in increasing order of complexity. For the first
 
 Consider the following three theorems:
 
-**Theorem A:** Let $G=(\mathbb{Z}/m\mathbb{Z})^\times$ be the multiplicative group of units mod $m$. Then $G$ is cyclic if and only if $m=p^n$ for some prime $p\neq 2$ and $n\geq 0$, or if $m=2,4$. 
+**Theorem A:** Let $G=(\mathbb{Z}/m\mathbb{Z})^\times$ be the multiplicative group of units mod $m$. Then $G$ is cyclic if and only if $m=p^n$ or $m=2p^n$ for some prime $p\neq 2$ and $n\geq 0$, or if $m=2,4$. 
 
 **Theorem B:** Let $K=\mathbb{Q}(\sqrt{D})$ for a squarefree integer $D\neq 1$. Then $p$ is ramified in $K/\mathbb{Q}$ if and only if $p\mid D$, or if $p=2$ and $D\not \equiv 1\bmod 4$.
 
@@ -49,7 +49,7 @@ $$\exp_p(x)=1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+\cdots.$$
 
 Now, $\exp_p$ has a pretty terrible radius of convergence. Unlike $\log$ which had radius of convergence $1$, the $p$-adic exponential has radius of convergence $\| x\|_p<p^{-1/(p-1)}.$ What does this translate to in practice? Well, let $q=p$ if $p>2$ and $q=4$ if $p=2$. It turns out that $\exp_p(x)$ is defined exactly when $x\in q\mathbb{Z}_p$. Since $\exp_p$ and $\log_p$ invert each other *formally*, they define an isomorphism
 
-$$\mathbb{Z}\_p\cong q\mathbb{Z}\_p=\text{Domain}(\exp_p)\cong \text{Im}(\exp_p)\subseteq U^1_p$$
+$$\mathbb{Z}_p\cong q\mathbb{Z}_p=\text{Domain}(\exp_p)\cong \text{Im}(\exp_p)\subseteq U^1_p$$
 
 What exactly is the image of $\exp_p$ then? Well, it turns out that it is exactly $1+q\mathbb{Z}_p$. When $p>2$, we then obtain $\text{Im}(\exp_p)=U^1_p$, but when $p=2$, because $q\neq p$ in this case we get $\text{Im}(\exp_p)\subsetneq U^1_p$. If we then account for this difference, we can obtain the following structure theorem for $U^1_p$
 
