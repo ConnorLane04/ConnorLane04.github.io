@@ -22,7 +22,7 @@ Before I begin, I would like to give a word of warning: because my focus is on e
 
 Let $m$ be a positive integer. The Chinese remainder theorem allows us to decompose $(\mathbb{Z}/m\mathbb{Z})^\times$ into factors from each prime
 
-$$(\mathbb{Z}/m\mathbb{Z})^\times\cong \prod_{p|m} (\mathbb{Z}/p^{\nu_p(m)}\mathbb{Z})^\times.$$
+$$(\mathbb{Z}/m\mathbb{Z})^\times\cong \prod_{p\mid m} (\mathbb{Z}/p^{\nu_p(m)}\mathbb{Z})^\times.$$
 
 Here, $\nu_p$ is the $p$-adic valuation, which takes $m$ to the exponent of $p$ in its prime factorization. Using this idea, we can (this is not completely trivial) reduce the proof of **Theorem A** to just verifying it on prime powers. So, let $p^k$ be a prime power, and we want to see when $(\mathbb{Z}/p^k\mathbb{Z})^\times$ is cyclic. In one elementary solution to this, you end up showing that when $p>2$, $(1+p)$ is an element of exact order $p^{k-1}$. You do this by applying the binomial theorem to $(1+p)^{p^n}$ and then using some results on the divisibility of binomial coefficients.
 
@@ -35,7 +35,7 @@ Let $\mathbb{Z}_p$ be the $p$-adic integers, $\mathbb{Z}_p^\times$ the units of 
 
 $$\log_p(1+x)=x-\frac{x^2}{2}+\frac{x^3}{3}-\cdots,$$
 
-this converges for all $1+x\in U^1_p$, or equivalently $|x-1|_p<1$. The $p$-adic logarithm is an extremely useful tool for studying $U_1$ because it turns out to almost be an isomorphism. Its near-inverse is given by the $p$-adic exponential $\exp_p$ 
+this converges for all $1+x\in U^1_p$, or equivalently $\| x-1\|_p<1$. The $p$-adic logarithm is an extremely useful tool for studying $U_1$ because it turns out to almost be an isomorphism. Its near-inverse is given by the $p$-adic exponential $\exp_p$ 
 
 $$\exp_p(x)=1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+\cdots.$$
 
