@@ -19,7 +19,7 @@ Consider the following three theorems:
 
 **Theorem B:** Let $K=\mathbb{Q}(\sqrt{D})$ for a squarefree integer $D\neq 1$. Then $p$ is ramified in $K/\mathbb{Q}$ if and only if $p\mid D$, or if $p=2$ and $D\not \equiv 1\bmod 4$.
 
-**Theorem C:** Let $K$ be a number field and $\text{scd}_p(K)$ denote the (strict) $p$-cohomological dimension of the absolute Galois group $G_K=\text{Gal}(\bar{K}/K)$. (I.e. For a profinite group $G$, $\text{scd}_p(G)$ is the smallest $n$ such that the $p$-part of $H^i(G,A)$ is trivial for any $i\geq n$ and any $G$-module $A$.) Then $\text{scd}_p(G_K)=2$ unless $p=2$ and $K$ has a real place, in which case $\text{scd}_p(G_K)=\infty$. 
+**Theorem C:** Let $K$ be a number field and $\text{scd}_p(K)$ denote the (strict) $p$-cohomological dimension of the absolute Galois group $G_K=\text{Gal}(\bar{K}/K)$. (I.e. For a profinite group $G$, $\text{scd}_p(G)$ is the smallest $n$ such that the $p$-part of $H^i(G,A)$ is trivial for any $i> n$ and any $G$-module $A$.) Then $\text{scd}_p(G_K)=2$ unless $p=2$ and $K$ has a real place, in which case $\text{scd}_p(G_K)=\infty$. 
 
 I claim that the poor behavior of $2$ in each of these cases comes down to three different reasons, which I will call reason $A$, reason $B$, and reason $C$.
 
