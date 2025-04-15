@@ -81,7 +81,7 @@ Let me demonstrate this on **Theorem B**. I will define a problem $X(n)$, parame
 
 Observe that $X(2)$ is exactly the problem that **Theorem B** solves. This problem admits the following solution, whose proof is omitted. (It is a lot of involved Kummer theory and local arguments.)
 
-**Theorem $B'(n)$:** For $n$th power free $D\in \mathbb{Z}$, $p$ is ramified in $\mathbb{Q}(\sqrt[n]{D})/\mathbb{Q}$ if and only if $p\nmid D$ or if $p\mid n$ and $a\not \equiv 1\bmod p^2$.
+**Theorem $B'(n)$:** For $n$th power free $D\in \mathbb{Z}$, $p$ is ramified in $\mathbb{Q}(\sqrt[n]{D})/\mathbb{Q}$ if and only if $p\nmid D$ or if $p\mid n$ and $D\not \equiv 1\bmod p^2$.
 
 This demonstrates the general principle of reason B: we have a generalization of **Theorem B**, which we call **Theorem $B'(n)$**, such that $B=B'(2)$, and such that $p$ is a "bad prime" of $B(n)$ whenever $p\mid n$. Note that in this case, I am considering a bad prime to be one where the statement involves a congruence condition. This decision is even further justified by the proof of this theorem, where most of the work comes from proving the $p\mid n$ case.
 
