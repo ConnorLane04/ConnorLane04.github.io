@@ -71,7 +71,7 @@ After doing enough algebraic number theory and arithmetic geometry, one begins t
 
 - Given an extension of number fields $L/K$, there is a finite list of primes $\{\mathfrak{p}_i\}$ of $K$ that ramify in $L$.
 - Given an elliptic curve $E/\mathbb{Q}$ with reductions $E_p$ mod $p$, there is a finite list of primes $\{p_i\}$ such that $E_{p_i}$ is not an elliptic curve. These are the primes of bad reduction.
-- Given a space of modular forms $M_k(\Gamma)$ for a congruence subgroup $\Gamma$, there is a finite set of primes $\{p_i\}$, the primes dividing the level $N$ of $\Gamma$, such that the Hecke operators $U_{p_i}$ need not commute. 
+- Given a space of modular forms $M_k(\Gamma)$ for a congruence subgroup $\Gamma$, there is a finite set of primes $\{p_i\}$, the primes dividing the level $N$ of $\Gamma$, such that the Hecke operators $U_{p_i}$ need not act semisimply. 
 
 Now, suppose we have a family of problems $X(n)$ for varying $n\in \mathbb{Z}_{>0}$. It turns out that quite often, the set of bad primes of the problem $X(n)$ is precisely the primes dividing $n$. I claim that frequently a theorem $T$ where it looks like $2$ is an exceptional case is the solution to an $X(2)$, and there is some generalization of $T$, $T'(n)$ (so that $T'(2)=T$) that solves $X(n)$. And moreover, $X(n)$ has the property that its set of primes is exactly the set of primes dividing $n$. Therefore, the only reason that $2$ is exceptional in $T$ is because it is the set of bad primes for $X(2)$.
 
