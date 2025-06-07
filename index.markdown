@@ -16,4 +16,4 @@ In the summer of 2024, I worked under [Dr. Hui Xue](https://huixue.people.clemso
 
 You can find my CV [here][1].
 
-[1]:/downloads/Connor_Lane_CV_12_5_24.pdf
+[1]:/downloads/Connor_Lane_CV_6_7_2025.pdf
