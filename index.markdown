@@ -6,6 +6,9 @@ layout: home
 title: Home
 ---
 
+"early on in my research career, I decided that I didn’t want to represent functors, but would rather solve Diophantine equations. Now, I find myself representing functors in order to solve Diophantine equations."
+      -Lenstra
+
 I'm a 21-year-old grad student at [UCSB](https://www.ucsb.edu/) in the first year of my PhD. I completed my undergraduate studies at [Rose-Hulman](https://www.rose-hulman.edu/index.html) with a bachelor in math and minors in CS and theoretical physics. When I'm not doing math, you can usually find me hiking, skiing, or generally enjoying the outdoors. I also love sharing mathematics with others, for example as a Counselor for [Ross](https://rossprogram.org/).
 
 I like basically every topic in pure math, but my particular favorite subject is algebraic number theory, especially Iwasawa theory and Galois cohomology. I'm currently on a quest to read and understand all of Neukirch, Schmidt, and Wingberg's [Cohomology of Number Fields](https://link.springer.com/book/10.1007/978-3-540-37889-1), which is a book I owe a lot of my mathematical development to. My favorite theorems are Artin reciprocity, the Iwasawa main conjecture (for totally real number fields), and the Neukirch-Uchida theorem. I also really like arithmetic duality theorems, and their relations to analogies like the function field analogy or arithmetic topology.
