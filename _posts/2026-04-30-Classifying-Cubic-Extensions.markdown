@@ -51,7 +51,7 @@ where $A(n)$ is the $n$th Tate twist of $A$.
 
 $$0\to H^1(F(\mu_p)/F,\mathbb Z/p\mathbb Z)\to H^1(F,\mathbb Z/p\mathbb Z)\to H^1(F(\mu_p),\mathbb{Z}/p\mathbb{Z})^{\text{Gal}(F(\mu_p)/F)}\to H^2(F(\mu_p)/F,\mathbb Z/p\mathbb Z).$$
 
-Since $[F(\mu_p):F]=p-1$ is coprime to $p=#\mathbb{Z}/p\mathbb{Z}$, the first and last groups vanish, and we have 
+Since $[F(\mu_p):F]=p-1$ is coprime to $p=\#\mathbb{Z}/p\mathbb{Z}$, the first and last groups vanish, and we have 
 
 $$H^1(F,\mathbb Z/p\mathbb Z)\simeq H^1(F(\mu_p),\mathbb{Z}/p\mathbb{Z})^{\text{Gal}(F(\mu_p)/F)}.$$
 
