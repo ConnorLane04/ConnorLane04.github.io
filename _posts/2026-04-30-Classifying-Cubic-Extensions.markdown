@@ -14,13 +14,21 @@ First, let's recall the classification of quadratic extensions so we can underst
 ---- 
 
 Let $F$ be a field. To classify the quadratic extensions of $F$, we can use either Kummer theory (if $\text{Char}(F)\neq 2$) or Artin-Schreier theory (if $\text{Char}(F)=2$). In the $\text{Char}(F)\neq 2$ case, we have an isomorphism by Kummer theory
+
 $$\text{Hom}(G_F,\mu_2)\simeq F^\times/F^{\times 2}$$
+
 which implies that there is a bijection
+
 $$\text{Quadratic extensions of }F\leftrightarrow\text{order 2 subgroups of }F^\times/F^{\times 2}$$
+
 Similarly, if $\text{Char}(F)=2$, then Artin-Schreier theory gives us the relevant classification. Define $\wp:F\to F$ by $\wp(x)=x^2-x$. Then we have
+
 $$\text{Hom}(G_F,\mathbb F_2)\simeq F/\wp(F)$$
+
 which implies that there is a bijection
+
 $$\text{Quadratic extensions of }F\leftrightarrow\text{order 2 subgroups of }F/\wp(F).$$
+
 Together, these give a classification of quadratic extensions of $F$ for any field $F$.
 
 
@@ -34,15 +42,23 @@ However, we actually can work around both of these problems and obtain a classif
 Let's work around the first bullet point first. 
 
 **Lemma 1:** Let $F$ be a field of characteristic $\neq p$, and assume $\mu_p\not \subseteq F$. Then
+
 $$\text{Hom}(G_F,\mathbb Z/p\mathbb Z)\simeq (F(\mu_p)^\times/F(\mu_p)^{\times p}(-1))^{\text{Gal}(F(\mu_p)/F)}$$
+
 where $A(n)$ is the $n$th Tate twist of $A$. 
 
 **Proof:** By the Inflation-Restriction exact sequence, we have
+
 $$0\to H^1(F(\mu_p)/F,\mathbb Z/p\mathbb Z)\to H^1(F,\mathbb Z/p\mathbb Z)\to H^1(F(\mu_p),\mathbb{Z}/p\mathbb{Z})^{\text{Gal}(F(\mu_p)/F)}\to H^2(F(\mu_p)/F,\mathbb Z/p\mathbb Z).$$
+
 Since $[F(\mu_p):F]=p-1$ is coprime to $p=|\mathbb{Z}/p\mathbb{Z}|$, the first and last groups vanish, and we have 
+
 $$H^1(F,\mathbb Z/p\mathbb Z)\simeq H^1(F(\mu_p),\mathbb{Z}/p\mathbb{Z})^{\text{Gal}(F(\mu_p)/F)}.$$
+
 So we are reduced to computing the RHS of this isomorphism. However, since $\mu_p\subseteq F(\mu_p)$, we can pass Tate twists on exponent $p$ groups in and out of Cohomology, so we have
+
 $$H^1(F(\mu_p),\mathbb{Z}/p\mathbb{Z})^{\text{Gal}(F(\mu_p)/F)}\simeq H^1(F(\mu_p),\mu_p)(-1)^{\text{Gal}(F(\mu_p)/F)}\simeq (F(\mu_p)^\times/F(\mu_p)^{\times p}(-1))^{\text{Gal}(F(\mu_p)/F)}$$
+
 which completes the proof. $\square$
 
 Now we know how to classify the Galois cubic extensions, so the next thing to do is classify the nongalois ones. The best way to do this is to stratify by Galois closure. Specifically, let $L/F$ be a cubic extension that is not Galois. Then the Galois closure $\tilde{L}/F$ is an $S_3$ extension, and has a unique quadratic subextension $\tilde{L}/K/F$. This field $K$ is called the discriminant root field of $L$, and is obtained from $F$ by adjoining the square root of the discriminant of any cubic polynomial whose splitting field is $\tilde{L}$. We will classify the cubic extensions one discriminant root field at a time.
@@ -62,6 +78,7 @@ Finally, the last possibility is that $H$ is not $\text{Gal}(K/F)$-stable. In th
 Putting all we have done so far together, we get the following result:
 
 **Lemma 2:** Let $F$ be a field and $K$ be a quadratic extension of $F$. Then there is a natural bijection 
+
 $$\text{Triples of conjugate nongalois cubic extensions of }F\text{ with discriminant root field }K \\
 \updownarrow \\
 \text{order 3 subgroups of }\text{Hom}(G_K,\mathbb{Z}/3\mathbb{Z})\text{ with a well-defined nontrivial Gal}(K/F)\text{ action}.$$
@@ -80,7 +97,9 @@ Finally, if $\text{Char}(F)\neq 3$ and $\mu_3\not\subseteq F$, then we have bije
 - Galois cubic extensions $L/F$ and order $3$ subgroups of $(F(\mu_3)^\times/F(\mu_3)^{\times 3}(-1))^{\text{Gal}(F(\mu_3)/F)}$
 - Triples of conjugate nongalois extensions $L_1,L_2,L_3/F$ with discriminant root field $F(\mu_3)$ and order $3$ subgroups $H\subseteq F(\mu_3)^\times/F(\mu_3)^{\times 3}$ such that $\text{Gal}(K/F)$ stabalizes $H$ and acts trivially on it.
 - Triples of conjugate nongalois extensions $L_1,L_2,L_3/F$ with discriminant root field $K\neq F(\mu_3)$ and order $3$ subgroups $H\subseteq (K(\mu_3)^{\times}/K(\mu_3)^{\times 3}(-1))^{\text{Gal}(F(\mu_3)/F)}$ such that $\text{Gal}(K/F)$ stabalizes $H$ and acts nontrivially on it.
+
 ----
+
 ### Notes
 - I don't think this theorem is useful, I just wanted to flex my Galois theory muscles. 
 - This is probably still doable for quartic extensions? I think it will get real annoying though. I don't think its possible for quintic extensions since $S_5$ is not solvable.
