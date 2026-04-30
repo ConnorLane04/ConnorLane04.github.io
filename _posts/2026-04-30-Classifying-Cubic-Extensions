@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Classifying Cubic Extensions"
+date:   2026-04-30 00:00:00 -0400
+categories: Galois-Cohomology
+---
+
 Kummer theory doesn't get enough respect. To prove this I will classify all cubic extensions (not necessarily Galois) of an arbitrary field (not necessarily containing $\mu_3$, possibly characteristic $3$). This way I can finally justify reading 800 pages of Galois cohomology.
 
 In terms of prerequisites, a solid understanding of Galois cohomology (say at the level needed for CFT) should suffice. I maybe use one trick that's a little more advanced than that, which is keeping track of how a quotient $G/H$ acts on the cohomology groups $H^i(H,A)$, especially when I change the $G/H$-structure of $A$. But I explicitly point this out when its used. I also use Tate twists.
