@@ -37,6 +37,7 @@ Together, these give a classification of quadratic extensions of $F$ for any fie
 The next integer after $2$ is $3$, so what happens if we try to classify all cubic extensions of $F$? Let's assume for a moment that $\text{Char}(F)\neq 3$, so we will use Kummer theory instead of Artin-Schreier theory. There are two obstacles to generalizing the results for quadratic extensions:
 - We can't apply Kummer theory blindly in case $\mu_3\not \subseteq F$
 - There are nongalois cubic extensions to worry about.
+
 However, we actually can work around both of these problems and obtain a classification. 
 
 Let's work around the first bullet point first. 
