@@ -38,9 +38,7 @@ The next integer after $2$ is $3$, so what happens if we try to classify all cub
 - We can't apply Kummer theory blindly in case $\mu_3\not \subseteq F$
 - There are nongalois cubic extensions to worry about.
 
-However, we actually can work around both of these problems and obtain a classification. 
-
-Let's work around the first bullet point first. 
+However, we actually can work around both of these problems and obtain a classification. Let's work around the first bullet point first. 
 
 **Lemma 1:** Let $F$ be a field of characteristic $\neq p$, and assume $\mu_p\not \subseteq F$. Then
 
