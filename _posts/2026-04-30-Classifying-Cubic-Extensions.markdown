@@ -78,7 +78,7 @@ Putting all we have done so far together, we get the following result:
 
 **Lemma 2:** Let $F$ be a field and $K$ be a quadratic extension of $F$. Then there is a natural bijection 
 
-$$\text{Triples of conjugate nongalois cubic extensions of }F\text{ with discriminant root field }K \\
+$$\text{Triples of conjugate separable nonnormal cubic extensions of }F\text{ with discriminant root field }K \\
 \updownarrow \\
 \text{order 3 subgroups of }\text{Hom}(G_K,\mathbb{Z}/3\mathbb{Z})\text{ with a well-defined nontrivial Gal}(K/F)\text{ action}.$$
 
