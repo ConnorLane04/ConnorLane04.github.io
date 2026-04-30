@@ -60,11 +60,11 @@ $$H^1(F(\mu_p),\mathbb{Z}/p\mathbb{Z})^{\text{Gal}(F(\mu_p)/F)}\simeq H^1(F(\mu_
 
 which completes the proof. $\square$
 
-Now we know how to classify the Galois cubic extensions, so the next thing to do is classify the nongalois ones. The best way to do this is to stratify by Galois closure. Specifically, let $L/F$ be a cubic extension that is not Galois. Then the Galois closure $\tilde{L}/F$ is an $S_3$ extension, and has a unique quadratic subextension $\tilde{L}/K/F$. This field $K$ is called the discriminant root field of $L$, and is obtained from $F$ by adjoining the square root of the discriminant of any cubic polynomial whose splitting field is $\tilde{L}$. We will classify the cubic extensions one discriminant root field at a time.
+Now we know how to classify the Galois cubic extensions, so the next thing to do is classify the nonnormal ones. The best way to do this is to stratify by Galois closure. Specifically, let $L/F$ be a cubic extension that is separable but not Galois. Then the Galois closure $\tilde{L}/F$ is an $S_3$ extension, and has a unique quadratic subextension $\tilde{L}/K/F$. This field $K$ is called the discriminant root field of $L$, and is obtained from $F$ by adjoining the square root of the discriminant of any cubic polynomial whose splitting field is $\tilde{L}$. We will classify the cubic extensions one discriminant root field at a time.
 
 By the Galois correspondence, the extension $\tilde{L}/F$ has not one, but three cubic subextensions. They correspond to the subgroups $\langle (12)\rangle$, $\langle (13)\rangle$, and $\langle (23)\rangle$ of $S_3$. Since these subgroups are conjugate, the fields are the conjugates of $L$ over $F$, and they are therefore all isomorphic. 
 
-In conclusion, for any triple of isomorphic nongalois cubic extensions $L_1,L_2,L_3/F$, they all have an identical Galois closure $\tilde{L}=L_1K=L_2K=L_3K$, and the extension $\tilde{L}/K$ is a cubic Galois extension.
+In conclusion, for any triple of isomorphic separable nonnormal cubic extensions $L_1,L_2,L_3/F$, they all have an identical Galois closure $\tilde{L}=L_1K=L_2K=L_3K$, and the extension $\tilde{L}/K$ is a cubic Galois extension.
 
 Since our goal is a full classification, we want to understand when a cubic Galois extension of $K$ comes from a cubic nongalois extension of $F$. A cubic extension $M/K$ corresponds to an order $3$ subgroup $H$ of $\text{Hom}(G_K,\mathbb{Z}/3\mathbb{Z})$. 
 
@@ -86,7 +86,8 @@ We now have two lemmas, one which handles the issue of Kummer theory without $\m
 
 **Theorem:** Let $F$ be a field. Suppose first that $\text{Char}(F)=3$ and define $\wp:F\to F$ by $\wp(x)=x^3-x$. Then we have bijections between
 - Galois cubic extensions $L/F$ and order $3$ subgroups of $F/\wp(F)$
-- Triples of conjugate nongalois extensions $L_1,L_2,L_3/F$ with discriminant root field $K$, and order $3$ subgroups $H\subseteq K/\wp(K)$ such that $\text{Gal}(K/F)$ stabalizes $H$ and acts nontrivially on it.
+- Triples of normal conjugate nongalois extensions $L_1,L_2,L_3/F$ with discriminant root field $K$, and order $3$ subgroups $H\subseteq K/\wp(K)$ such that $\text{Gal}(K/F)$ stabalizes $H$ and acts nontrivially on it.
+- Inseparable extensions $L/F$ and order $3$ subgroups of $F^\times/F^{\times 3}$
 
 If instead $\text{Char}(F)\neq 3$ and $\mu_3\subseteq F$, then we have bijections between
 - Galois cubic extensions $L/F$ and order $3$ subgroups of $F^\times/F^{\times 3}$
