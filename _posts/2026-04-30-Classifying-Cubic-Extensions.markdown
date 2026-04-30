@@ -106,5 +106,7 @@ Finally, if $\text{Char}(F)\neq 3$ and $\mu_3\not\subseteq F$, then we have bije
 - With clever wording you can collapse many of the cases of this classification together. More precisely, you can reword the theorems using the degenerate cases that the discriminant root field of a Galois $L/F$ is $F$, and that $\text{Gal}(F(\mu_3)/F)$ is trivial when $\mu_3\subseteq F$. This turns the theorem in to being about subgroups of $K/\wp(K)$ with nontrivial $\text{Gal}(K/F)$ action, and subgroups of $(K(\mu_3)^\times/K(\mu_3)^{\times 3}(-1))^{\text{Gal}(K(\mu_3)/K)}$ with nontrivial $\text{Gal}(K/F)$-action. 
 The reason I did not phrase the theorem like this is because my proof still uses casework. However, this does hint at the existence of a cleaner proof, see the next bullet point.
 - If anyone can find a way to reprove this result in terms of the nonabelian cohomology exact sequence
+
 $$0\to H^1(G_F,\mathbb{Z}/3\mathbb{Z})\to H^1(G_F,S_3)\to H^1(G_F,\mathbb{Z}/2\mathbb{Z})\to H^2(G_F,\mathbb{Z}/3\mathbb{Z})$$
+
 I would be intrigued. The main thing I can't work out is how the "with nontrivial $\text{Gal}(K/F)$ action" comes in to play... I think its something to do with the extension $\mathbb{Z}/3\mathbb{Z}\to S_3\to \mathbb{Z}/2\mathbb{Z}$ having nontrivial action of the quotient on the subobject.
