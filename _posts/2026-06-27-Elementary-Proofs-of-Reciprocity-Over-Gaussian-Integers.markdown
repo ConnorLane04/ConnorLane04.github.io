@@ -22,7 +22,7 @@ Next consider the two curves $E_+:y^2=x^3+x$ and $E_-:-y^2=x^3+x$.
 
 **Proof of Lemma 1**: Let $P(x)=x^3+ x$. $P$ is an odd function. If $x\neq 0$, then $P(x)\neq 0$ since $i\not \in \mathbb{F}\_p$. Furthermore, exactly one of $P(x)$ and $-P(x)=P(-x)$ is a square, so $y^2=P(x)$ and $-y^2=P(x)$ have exactly two solutions in total. Therefore, for every pair $(x,-x)$ of nonzero elements of $\mathbb{F}_p$, $y^2=P\_{\pm}(x)$ has exactly $2$ solutions. There are $(p-1)/2$ such pairs, so there are $p-1$ solutions when $x\neq 0$. Adding in the only solution $(0,0)$ that has $x=0$, we get a total of $p$ solutions.$\quad\square$
 
-**Lemma 2**: Let $n$ be an odd integer, $A_{\pm}$ be the $n$-torsion subgroup of $E_\pm(\mathbb{F}_p)$, and $B$ be the $n$-torsion subgroup of $E_+(\mathbb{F}_{p^2})$. Then $B\cong A_+\oplus A_-$.
+**Lemma 2**: Let $n$ be an odd integer, $A_{\pm}$ be the $n$-torsion subgroup of $E_\pm(\mathbb{F}\_p)$, and $B$ be the $n$-torsion subgroup of $E_+(\mathbb{F}\_{p^2})$. Then $B\cong A_+\oplus A_-$.
 
 **Proof of Lemma 2**: Recalling that $\mathbb{F}\_{p^2}=\mathbb{F}\_p[i]$, we write $\alpha=a+bi$, define $c:\mathbb{F}\_p[i]\to \mathbb{F}\_p[i]$ by $c(a+bi)=a-bi$. This is an automorphism of $\mathbb{F}\_p[i]$, and therefore it acts on $B$. Let $B\_{\pm}=\{Q=(x,y)\in B:c(Q)=\pm Q\}$. Then $B_+=A_+$, and we claim that $B_-\cong A_-$. To see this, take $(x,y)\in B_-$. Then since $-(x,y)=(x,-y)$, we see that $x\in \mathbb{F}\_p$ and $y\in i\mathbb{F}\_p$, and the isomorphism $B_-\cong A_-$ is given by $(x,y)\mapsto (x,y/i)$. So it suffices to prove that $B\cong B_+\oplus B_-$.
 
