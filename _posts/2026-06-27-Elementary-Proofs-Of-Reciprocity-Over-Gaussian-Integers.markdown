@@ -1,6 +1,6 @@
 Recall the following elementary proof of a very special case of QR:
 
-> Let $p$ be a prime. The group $\mathbb{F}_p^\times$ is cyclic of order $p-1$, so it has an element of order $3$ exactly when $p\equiv 1\bmod 3$. Therefore it contains the primitive third root of unity $\zeta_3=-\frac12-\frac{\sqrt{-3}}{2}$ exactly when $p\equiv 1\bmod 3$. But clearly it contains this element if and only if it contains $\sqrt{-3}$, so $\sqrt{-3}\in \mathbb{F}_p$ if and only if $p\equiv 1\bmod 3$. 
+Let $p$ be a prime. The group $\mathbb{F}_p^\times$ is cyclic of order $p-1$, so it has an element of order $3$ exactly when $p\equiv 1\bmod 3$. Therefore it contains the primitive third root of unity $\zeta_3=-\frac12-\frac{\sqrt{-3}}{2}$ exactly when $p\equiv 1\bmod 3$. But clearly it contains this element if and only if it contains $\sqrt{-3}$, so $\sqrt{-3}\in \mathbb{F}_p$ if and only if $p\equiv 1\bmod 3$. 
 
 This is a favorite proof of mine. It is totally elementary, super quick, proves a very interesting fact, and still manages to be quite conceptual. There's nothing not to love about it. And it's been on my mind recently, as these sorts of ideas are core to how the [Ross Mathematics Program](https://rossprogram.org/) (where I am a counselor) proves the quadratic reciprocity theorem.
 
@@ -8,9 +8,9 @@ Fundamental to this argument is the consideration of the $3$ torsion of $\mathbb
 
 From this perspective it is natural to ask whether similar elementary arguments can be done using a CM elliptic curve to prove special cases of Artin reciprocity over $\mathbb{Q}(i)$. I claim the answer is yes, and in this blog post I will explain how to do so.
 
-Our main subject will be the CM elliptic curve $E:y^2=x^3-x$. This has CM by $\mathbb{Z}[i]$, where multiplication by $i$ is given by $(x,y)\mapsto (-x,iy)$. However, we will never actually use this fact explicitly in our proof, as CM theory is far too advanced of machinery to count as an elementary proof. This curve has supersingular reduction at all primes $p\equiv 3\mod 4$, so in particular $a_p=0$ for such primes. This means the structure of $E(\mathbb{Z}[i]/p)=E(\mathbb{F}_{p^2})$ will be particularly simple at such primes. This will give us a very simple ``modular arithmetic criterion'' for when $E[n]\subseteq E(\mathbb{F}_{p^2})$ for varying values of $n$. From here, we will find the coordinates of an order $n$ point, and therefore we'll have a modular arithmetic criterion for when the coordinates of that point lie in $\mathbb{F}_{p^2}$.
+Our main subject will be the CM elliptic curve $E:y^2=x^3-x$. This has CM by $\mathbb{Z}[i]$, where multiplication by $i$ is given by $(x,y)\mapsto (-x,iy)$. However, we will never actually use this fact explicitly in our proof, as CM theory is far too advanced of machinery to count as an elementary proof. This curve has supersingular reduction at all primes $p\equiv 3\mod 4$, so in particular $a_p=0$ for such primes. This means the structure of $E(\mathbb{Z}[i]/p)=E(\mathbb{F}\_{p^2})$ will be particularly simple at such primes. This will give us a very simple "modular arithmetic criterion" for when $E[n]\subseteq E(\mathbb{F}\_{p^2})$ for varying values of $n$. From here, we will find the coordinates of an order $n$ point, and therefore we'll have a modular arithmetic criterion for when the coordinates of that point lie in $\mathbb{F}_{p^2}$.
 
-With the strategy explained, here's the theorem we'll prove.
+With the strategy explained, here's the theorem we'll prove:
 
 **Theorem**: Let $p\equiv 3\bmod 4$ be a prime. Then $p\equiv 4\bmod 5$ if and only if $5-10i$ is a square in $\mathbb{Z}[i]/p$
 
