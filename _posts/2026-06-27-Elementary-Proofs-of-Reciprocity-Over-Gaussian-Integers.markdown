@@ -1,6 +1,6 @@
 Recall the following elementary proof of a very special case of QR:
 
-Let $p$ be a prime. The group $\mathbb{F}_p^\times$ is cyclic of order $p-1$, so it has an element of order $3$ exactly when $p\equiv 1\bmod 3$. Therefore it contains the primitive third root of unity $\zeta_3=-\frac12-\frac{\sqrt{-3}}{2}$ exactly when $p\equiv 1\bmod 3$. But clearly it contains this element if and only if it contains $\sqrt{-3}$, so $\sqrt{-3}\in \mathbb{F}_p$ if and only if $p\equiv 1\bmod 3$. 
+> Let $p$ be a prime. The group $\mathbb{F}_p^\times$ is cyclic of order $p-1$, so it has an element of order $3$ exactly when $p\equiv 1\bmod 3$. Therefore it contains the primitive third root of unity $\zeta_3=-(1/2)-(\sqrt{-3}/2)$ exactly when $p\equiv 1\bmod 3$. But clearly it contains this element if and only if it contains $\sqrt{-3}$, so $\sqrt{-3}\in \mathbb{F}_p$ if and only if $p\equiv 1\bmod 3$. 
 
 This is a favorite proof of mine. It is totally elementary, super quick, proves a very interesting fact, and still manages to be quite conceptual. There's nothing not to love about it. And it's been on my mind recently, as these sorts of ideas are core to how the [Ross Mathematics Program](https://rossprogram.org/) (where I am a counselor) proves the quadratic reciprocity theorem.
 
