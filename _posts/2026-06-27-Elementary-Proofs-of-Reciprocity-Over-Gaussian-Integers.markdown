@@ -28,11 +28,11 @@ Next consider the two curves $E_+:y^2=x^3+x$ and $E_-:-y^2=x^3+x$.
 
 To prove this isomorphism, define the elements $e_+$ and $e_-$ given by $e_\pm=(1\pm c)/2$. Then we have a homomorphism $Q\mapsto (e_+Q,e_-Q)$ with inverse $(Q_+,Q_-)\mapsto (Q_++Q_-)$. This completes the proof.$\quad \square$
 
-This actually gives us an explicit description of the group structure of $B$ for $n$ odd. Indeed, let $g=\text{gcd}(n,p+1)$. Then we claim that $B=(\mathbb{Z}/g\mathbb{Z})^2$. This is implied if $A_{\pm}\cong \mathbb{Z}/g\mathbb{Z}$. If say $A_+$ is not cyclic, then there is some prime $\ell|g$ such that $A_+[\ell]$ is at least two dimensional. But $A_-[\ell]$ is at least one dimensional, so this implies $B[\ell]$ is at least three dimensional, which is possible since $E[\ell]$ has cardinality $\ell^2$.
+This actually gives us an explicit description of the group structure of $B$ for $n$ odd. Indeed, let $g=\text{gcd}(n,p+1)$. Then we claim that $B=(\mathbb{Z}/g\mathbb{Z})^2$. This is implied if $A_{\pm}\cong \mathbb{Z}/g\mathbb{Z}$. If say $A_+$ is not cyclic, then there is some prime $\ell\mid g$ such that $A_+[\ell]$ is at least two dimensional. But $A_-[\ell]$ is at least one dimensional, so this implies $B[\ell]$ is at least three dimensional, which is possible since $E[\ell]$ has cardinality $\ell^2$.
 
 All in all, this gives an explicit description of the structure of $E_+(\mathbb{F}_{p^2})$ away from $2$, so we get a correspondence for odd $n$
 
-$$E(\mathbb{F}_{p^2})\text{ has a primitive }n\text{ torsion point} \Longleftrightarrow n|p+1$$
+$$E(\mathbb{F}_{p^2})\text{ has a primitive }n\text{ torsion point} \Longleftrightarrow n\mid p+1$$
 
 Applying this in the case of $5$-torsion and using sage to compute the field of definition of the relevant points, we see via a few lines of sage code that a certain element of $E[5]$ has coordinates with minimal field of definition $\mathbb{Q}(i,\sqrt{5-10i})$.
 
