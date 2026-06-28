@@ -24,7 +24,7 @@ Next consider the two curves $E_+:y^2=x^3+x$ and $E_-:-y^2=x^3+x$.
 
 **Lemma 2**: Let $n$ be an odd integer, $A_{\pm}$ be the $n$-torsion subgroup of $E_\pm(\mathbb{F}_p)$, and $B$ be the $n$-torsion subgroup of $E_+(\mathbb{F}_{p^2})$. Then $B\cong A_+\oplus A_-$.
 
-**Proof of Lemma 2**: Recalling that $\mathbb{F}_{p^2}=\mathbb{F}_p[i]$, we write $\alpha=a+bi$, define $c:\mathbb{F}_p[i]\to \mathbb{F}_p[i]$ by $c(a+bi)=a-bi$. This is an automorphism of $\mathbb{F}_p[i]$, and therefore it acts on $B$. Let $B_{\pm}=\{Q=(x,y)\in B:c(Q)=\pm Q\}$. Then $B_+=A_+$, and we claim that $B_-\cong A_-$. To see this, take $(x,y)\in B_-$. Then since $-(x,y)=(x,-y)$, we see that $x\in \mathbb{F}_p$ and $y\in i\mathbb{F}_p$, and the isomorphism $B_-\cong A_-$ is given by $(x,y)\mapsto (x,y/i)$. So it suffices to prove that $B\cong B_+\oplus B_-$.
+**Proof of Lemma 2**: Recalling that $\mathbb{F}\_{p^2}=\mathbb{F}\_p[i]$, we write $\alpha=a+bi$, define $c:\mathbb{F}\_p[i]\to \mathbb{F}\_p[i]$ by $c(a+bi)=a-bi$. This is an automorphism of $\mathbb{F}\_p[i]$, and therefore it acts on $B$. Let $B\_{\pm}=\{Q=(x,y)\in B:c(Q)=\pm Q\}$. Then $B_+=A_+$, and we claim that $B_-\cong A_-$. To see this, take $(x,y)\in B_-$. Then since $-(x,y)=(x,-y)$, we see that $x\in \mathbb{F}\_p$ and $y\in i\mathbb{F}\_p$, and the isomorphism $B_-\cong A_-$ is given by $(x,y)\mapsto (x,y/i)$. So it suffices to prove that $B\cong B_+\oplus B_-$.
 
 To prove this isomorphism, define the elements $e_+$ and $e_-$ given by $e_\pm=(1\pm c)/2$. Then we have a homomorphism $Q\mapsto (e_+Q,e_-Q)$ with inverse $(Q_+,Q_-)\mapsto (Q_++Q_-)$. This completes the proof.$\quad \square$
 
@@ -47,7 +47,7 @@ f.factor()
 x^2 - 2/5*i + 1/5
 ```
 
-So therefore we get that $E[5]\subseteq E(\mathbb{F}_{p^2})$ if and only if $\sqrt{1/5-(2/5)i}\in \mathbb{F}_{p^2}$. This proves the result. $\quad \square$
+So therefore we get that $E[5]\subseteq E(\mathbb{F}\_{p^2})$ if and only if $\sqrt{1/5-(2/5)i}\in \mathbb{F}\_{p^2}$. This proves the result. $\quad \square$
 
 ----
 
