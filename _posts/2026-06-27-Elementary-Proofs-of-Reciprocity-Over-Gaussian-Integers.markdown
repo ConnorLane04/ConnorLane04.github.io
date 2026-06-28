@@ -28,7 +28,7 @@ Next consider the two curves $E_+:y^2=x^3+x$ and $E_-:-y^2=x^3+x$.
 
 To prove this isomorphism, define the elements $e_+$ and $e_-$ given by $e_\pm=(1\pm c)/2$. Then we have a homomorphism $Q\mapsto (e_+Q,e_-Q)$ with inverse $(Q_+,Q_-)\mapsto (Q_++Q_-)$. This completes the proof.$\quad \square$
 
-This actually gives us an explicit description of the group structure of $B$ for $n$ odd. Indeed, let $g=\text{gcd}(n,p+1)$. Then we claim that $B=(\mathbb{Z}/g\mathbb{Z})^2$. This is implied if $A_{\pm}\cong \mathbb{Z}/g\mathbb{Z}$. If say $A_+$ is not cyclic, then there is some prime $\ell\mid g$ such that $A_+[\ell]$ is at least two dimensional. But $A_-[\ell]$ is at least one dimensional, so this implies $B[\ell]$ is at least three dimensional, which is possible since $E[\ell]$ has cardinality $\ell^2$.
+This actually gives us an explicit description of the group structure of $B$ for $n$ odd. Indeed, let $g=\text{gcd}(n,p+1)$. LThen we claim that $B=(\mathbb{Z}/g\mathbb{Z})^2$. emma 1 tells us that the order of $A\_{\pm}$ is exactly $g$, so we get $B=(\mathbb{Z}/g\mathbb{Z})^2$ is implied if $A_{\pm}\cong \mathbb{Z}/g\mathbb{Z}$. If (WLOG) $A_+$ is not cyclic, then there is some prime $\ell\mid g$ such that $A_+[\ell]$ is at least two dimensional. But $A_-[\ell]$ is at least one dimensional, so this implies $B[\ell]$ is at least three dimensional, which is possible since $E[\ell]$ has cardinality $\ell^2$.
 
 All in all, this gives an explicit description of the structure of $E_+(\mathbb{F}_{p^2})$ away from $2$, so we get a correspondence for odd $n$
 
