@@ -18,7 +18,7 @@ With the strategy explained, here's the theorem we'll prove:
 
 Next consider the two curves $E_+:y^2=x^3+x$ and $E_-:-y^2=x^3+x$. 
 
-**Lemma 1**: $E_+(\mathbb{F}_p)$ and $E_-(\mathbb{F}_p)$ have $p$ affine points
+**Lemma 1**: $E_+(\mathbb{F}\_p)$ and $E_-(\mathbb{F}\_p)$ have $p$ affine points
 
 **Proof of Lemma 1**: Let $P(x)=x^3+ x$. $P$ is an odd function. If $x\neq 0$, then $P(x)\neq 0$ since $i\not \in \mathbb{F}_p$. Furthermore, exactly one of $P(x)$ and $-P(x)=P(-x)$ is a square, so $y^2=P(x)$ and $-y^2=P(x)$ have exactly two solutions in total. Therefore, for every pair $(x,-x)$ of nonzero elements of $\mathbb{F}_p$, $y^2=P_{\pm}(x)$ has exactly $2$ solutions. There are $(p-1)/2$ such pairs, so there are $p-1$ solutions when $x\neq 0$. Adding in the only solution $(0,0)$ that has $x=0$, we get a total of $p$ solutions.$\quad\square$
 
