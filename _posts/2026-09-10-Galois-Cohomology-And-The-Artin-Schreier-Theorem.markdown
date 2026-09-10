@@ -34,14 +34,14 @@ $$H^{i-1}(F,\overline{F}) \to H^{i}(F,\mathbb{F}_p) \to H^{i}(F,\overline{F})$$
 
 by additive Hilbert $90$, the groups on the left and right vanish for $i>1$, so by properties of exact sequences the middle group must also vanish. $\square$
 
-Now we go back to assuming that $G_F=\mathbb{Z}/p\mathbb{Z}$. By the cocycle description of group cohomology, its easy to see that $H^1(G_F,\mathbb{F}_p)=\mathbb{F}_p$, but then by cyclicity of $G_F$ and vanishing of the Herbrand quotient for finite modules, we obtain $|H^2(G_F,\mathbb{F}_p)|=|H^1(G_F,\mathbb{F}_p)|\neq 0$, a contradiction. $\square$
+Now we go back to assuming that $G_F=\mathbb{Z}/p\mathbb{Z}$. By the cocycle description of group cohomology, its easy to see that $H^1(G_F,\mathbb{F}_p)=\mathbb{F}_p$, but then by cyclicity of $G_F$ and vanishing of the Herbrand quotient for finite modules, we obtain $\mid H^2(G_F,\mathbb{F}_p)\mid=\mid H^1(G_F,\mathbb{F}_p)\mid \neq 0$, a contradiction. $\square$
 
 Its worth noting that the restriction on the behavior of $G_F$ for a characteristic $p$ field $F$ that I just presented is actually very strong. In [NSW] Corollary 6.1.3 and Theorem 6.1.4, it is used to deduce the cohomological dimension bound $\text{cd}_p(G_F)\leq 1$ and that the pro-$p$ completion $G_F(p)$ is a free pro-$p$ group.
 ## Kummer Theory and the Behavior of $2$
 
 For the case of characteristic not dividing $p$, the approach is based on Kummer theory instead of Artin-Schreier theory (as you should expect.) This means we should be understanding the action of $G_F$ on $\mu_{p^n}$. This means we will need a little more consideration of elements than in the previous case, because that's the only way we can figure out what that Galois action literally is.
 
-As a first observation, we know that $\mu_p\subseteq F$, since otherwise we would have $[F(\mu_p):F]\nmid p$. Next, we'd like to know if $\mu_{p^2}\subseteq F$. This will be our first input from the structure of $\mathbb{Z}/p\mathbb{Z}$. The group $H^1(G_F,\mu_{p^2})$ has to have exponent dividing $p$ because $|G_F|=p$, and the order of a group kills its cohomology.
+As a first observation, we know that $\mu_p\subseteq F$, since otherwise we would have $[F(\mu_p):F]\nmid p$. Next, we'd like to know if $\mu_{p^2}\subseteq F$. This will be our first input from the structure of $\mathbb{Z}/p\mathbb{Z}$. The group $H^1(G_F,\mu_{p^2})$ has to have exponent dividing $p$ because $\midG_F\mid=p$, and the order of a group kills its cohomology.
 
 This fact is very interesting when you consider the Kummer isomorphism $H^1(F,\mu_{p^2})\cong F^\times/F^{\times p^2}$. Since $\overline{F}/F$ is a Kummer extension, there is an element $x\in F$ without a $p$th root, so this group is certainly nontrivial. Just think of this purely group theoretically: we have an abelian group $A$ such that $A/pA$ is nontrivial but $A/p^2A$ is still $p$-torsion.
 
@@ -65,7 +65,7 @@ Since the cohomology group is nontrivial for us, this implies $p=2$. $\square$
  - (Dualy) If $K$ is a number field, $T$ is a finite set of primes, and you specify abelian extensions $L_{\mathfrak{p}}/K_{\mathfrak{p}}$, then there is a global extension $L/K$ that realizes all of those local extensions, unless you are in a niche special case involving $2$.
 For a description of what that special case is, see [NSW] Theorems 9.1.11 and 9.2.8.
 
-**Method 2.** Consider the cyclotomic character, $\chi:G_F \to \text{Aut}_{\mathbb{Z}}(\mu_{p^\infty})$. We know this homomorphism is nontrivial because $\mu_{p^2}\not \subseteq F$, and since $G_F$ is simple this in fact implies $G_F\subseteq \text{Aut}_{\mathbb{Z}}(\mu_{p^\infty})$. But that latter group is isomorphic to $\mathbb{Z}_p^\times$, so we have
+**Method 2.** Consider the cyclotomic character, $\chi:G_F \to \text{Aut}\_{\mathbb{Z}}(\mu_{p^\infty})$. We know this homomorphism is nontrivial because $\mu_{p^2}\not \subseteq F$, and since $G_F$ is simple this in fact implies $G_F\subseteq \text{Aut}\_{\mathbb{Z}}(\mu_{p^\infty})$. But that latter group is isomorphic to $\mathbb{Z}_p^\times$, so we have
 
 $$\mathbb{Z}/p\mathbb{Z}\subseteq \mathbb{Z}_p^\times.$$
 
@@ -87,14 +87,14 @@ If you have enough Galois cohomology brain damage, then you might notice that th
 But ok, how do we use this? Well, there may be simpler ways to do this, but the only way I can think of is an atomic bomb: the norm residue isomorphism theorem. We'll need to introduce some $K$ theory, which is the reason I've had to use $F$ for a field instead of my beloved $K$.
 
 **Definition.** Let $F$ be a field, the Milnor $K$-theory of $F$ is the graded algebra
-$$K^M_*(F)=T(F^\times)/\langle a \otimes (1-a)| a,1-a\in F^\times\rangle$$
+$$K^M_\bullet(F)=T(F^\times)/\langle a \otimes (1-a)| a,1-a\in F^\times\rangle$$
 where $T(F^\times)$ denotes the tensor algebra of $F$, the graded algebra where the $n$th graded piece is $(F^\times)^{\otimes n}$.
 
 Our interest in this comes from the following extremely deep theorem:
 
 **Theorem** (Voevodsky, 2008). There is an isomorphism of graded algebras
-$$H^*(F,\mu_p^{\otimes *})\cong K^M_*(F)/p.$$
+$$H^\bullet (F,\mu_p^{\otimes \bullet})\cong K^M_\bullet(F)/p.$$
 
 This isomorphism is given by Kummer theory in degree $1$ but is much more complicated in all higher degrees.
 
-The upshot, however, is that when $\mu_p\subseteq F$, this is an extremely strong restriction on the structure of $H^*(G_F,\mu_p)\cong H^*(G_F,\mathbb{F_p})$. From the definition of Milnor $K$-theory, we see that $K_*^M$ is generated in degree $1$, and this immediately gives us the contradiction we need: for $p>2$, we cannot have $H^*(\mathbb{Z}/p\mathbb{Z},\mathbb{F}_p)$ be generated in degree $1$ because the lemma implies that the cup product is trivial in degree $1$! $\square$
+The upshot, however, is that when $\mu_p\subseteq F$, this is an extremely strong restriction on the structure of $H^\bullet (G_F,\mu_p)\cong H^\bullet (G_F,\mathbb{F_p})$. From the definition of Milnor $K$-theory, we see that $K_*^M$ is generated in degree $1$, and this immediately gives us the contradiction we need: for $p>2$, we cannot have $H^\bullet (\mathbb{Z}/p\mathbb{Z},\mathbb{F}_p)$ be generated in degree $1$ because the lemma implies that the cup product is trivial in degree $1$! $\square$
