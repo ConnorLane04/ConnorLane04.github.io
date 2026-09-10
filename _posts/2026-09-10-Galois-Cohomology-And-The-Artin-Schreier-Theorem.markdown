@@ -7,7 +7,7 @@ categories: Galois-Cohomology
 
 Let $F$ be a field. The Artin-Schreier theorem (not to be confused with Artin-Schreier theory, which is related but not the same thing) is basically the following equivalence:
 
- - $G_F$ is a finite group
+ - $G_F$ is a nontrivial finite group
  - $G_F\cong \mathbb{Z}/2\mathbb{Z}$
 
 there's more you can prove about the characteristic of $F$ being $0$ and about $F$ being orderable, but this statement contains the majority of the difficulty of the proof of the Artin-Schreier theorem.
@@ -17,6 +17,8 @@ This is one of those theorems where I was always a little embarrassed about how 
 But this summer I was forced to confront my lack of understanding. I suggested it as a topic for a project on Galois theory for Mickey Wong, a rising first-year at Cambridge, at the [Ross Mathematics Program](https://rossprogram.org/). As usual with Mickey, he asked some really good questions to try and understand this proof instead of settling with "it works because we screwed around with elements for long enough and got the result." This led to a series of extremely productive conversations between the two of us about this theorem and some more conceptual approaches to its proof, and I'd like to share some of these ideas here.
 
 The main tool I will use is Galois cohomology, and I have tried to rephrase as much as possible in terms of Galois cohomology. I have not been able to completely remove elements without resorting to overpowered machinery (see the last section), but I do think the perspectives I've given here are the most helpful I've seen. The idea I hope to emphasize is that the groups $\mathbb{Z}/n\mathbb{Z}$ for $n\neq 1,2$ behave cohomologically in a way that is impossible for an absolute Galois group to behave.
+
+Before I go into the arguments, I should remark that I am really only focusing on the "core" parts of the proof. So what I will prove more specifically is that if $G_F\cong \mathbb{Z}/p\mathbb{Z}$, then $p=2$ and $\text{char}(F)\neq 2$. The rest of the argument is not too hard and can be read (for example) [here](https://kconrad.math.uconn.edu/blurbs/galoistheory/artinschreier.pdf).
 
 ## The Characteristic $p$ Case
 
