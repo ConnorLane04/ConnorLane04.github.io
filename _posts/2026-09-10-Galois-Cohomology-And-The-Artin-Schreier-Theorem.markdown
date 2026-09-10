@@ -22,7 +22,7 @@ Before I go into the arguments, I should remark that I am really only focusing o
 
 ## The Characteristic $p$ Case
 
-First assume $F$ is characteristic $p$ and $G_F=\mathbb{Z}/p\mathbb{Z}$. We will prove this is impossible (in fact it is even impossible for $p=2$). To do this, we will use the following fact from Galois cohomology:
+First assume $F$ is characteristic $p$ and $G_F=\mathbb{Z}/p\mathbb{Z}$. We will prove this is impossible. To do this, we will use the following fact from Galois cohomology:
 
 **Theorem:** Let $F$ be a field of characteristic $p$. Then $H^i(F,\mathbb{F}_p)=0$ for $i>1$.
 
