@@ -41,7 +41,7 @@ Its worth noting that the restriction on the behavior of $G_F$ for a characteris
 
 For the case of characteristic not dividing $p$, the approach is based on Kummer theory instead of Artin-Schreier theory (as you should expect.) This means we should be understanding the action of $G_F$ on $\mu_{p^n}$. This means we will need a little more consideration of elements than in the previous case, because that's the only way we can figure out what that Galois action literally is.
 
-As a first observation, we know that $\mu_p\subseteq F$, since otherwise we would have $[F(\mu_p):F]\nmid p$. Next, we'd like to know if $\mu_{p^2}\subseteq F$. This will be our first input from the structure of $\mathbb{Z}/p\mathbb{Z}$. The group $H^1(G_F,\mu_{p^2})$ has to have exponent dividing $p$ because $\midG_F\mid=p$, and the order of a group kills its cohomology.
+As a first observation, we know that $\mu_p\subseteq F$, since otherwise we would have $[F(\mu_p):F]\nmid p$. Next, we'd like to know if $\mu_{p^2}\subseteq F$. This will be our first input from the structure of $\mathbb{Z}/p\mathbb{Z}$. The group $H^1(G_F,\mu_{p^2})$ has to have exponent dividing $p$ because $\mid G_F\mid=p$, and the order of a group kills its cohomology.
 
 This fact is very interesting when you consider the Kummer isomorphism $H^1(F,\mu_{p^2})\cong F^\times/F^{\times p^2}$. Since $\overline{F}/F$ is a Kummer extension, there is an element $x\in F$ without a $p$th root, so this group is certainly nontrivial. Just think of this purely group theoretically: we have an abelian group $A$ such that $A/pA$ is nontrivial but $A/p^2A$ is still $p$-torsion.
 
