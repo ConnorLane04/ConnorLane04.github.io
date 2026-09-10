@@ -110,7 +110,3 @@ The reason I did not phrase the theorem like this is because my proof still uses
 $$0\to H^1(G_F,\mathbb{Z}/3\mathbb{Z})\to H^1(G_F,S_3)\to H^1(G_F,\mathbb{Z}/2\mathbb{Z})\to H^2(G_F,\mathbb{Z}/3\mathbb{Z})$$
 
 I would be intrigued. The main thing I can't work out is how the "with nontrivial $\text{Gal}(K/F)$ action" comes in to play... I think its something to do with the extension $\mathbb{Z}/3\mathbb{Z}\to S_3\to \mathbb{Z}/2\mathbb{Z}$ having nontrivial action of the quotient on the subobject.
-
-
-[NSW] J. Neukirch, A. Schmidt and K. Wingberg, *Cohomology of number fields*, second edition, 
-Grundlehren der mathematischen Wissenschaften, 323, Springer, Berlin, 2008; MR2392026
