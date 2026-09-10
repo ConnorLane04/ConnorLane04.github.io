@@ -100,3 +100,6 @@ $$H^\bullet (F,\mu_p^{\otimes \bullet})\cong K^M_\bullet(F)/p.$$
 This isomorphism is given by Kummer theory in degree $1$ but is much more complicated in all higher degrees.
 
 The upshot, however, is that when $\mu_p\subseteq F$, this is an extremely strong restriction on the structure of $H^\bullet (G_F,\mu_p)\cong H^\bullet (G_F,\mathbb{F_p})$. From the definition of Milnor $K$-theory, we see that $K_*^M$ is generated in degree $1$, and this immediately gives us the contradiction we need: for $p>2$, we cannot have $H^\bullet (\mathbb{Z}/p\mathbb{Z},\mathbb{F}_p)$ be generated in degree $1$ because the proposition above implies that the cup product is trivial in degree $1$! $\square$
+
+[NSW] J. Neukirch, A. Schmidt and K. Wingberg, *Cohomology of number fields*, second edition, 
+Grundlehren der mathematischen Wissenschaften, 323, Springer, Berlin, 2008; MR2392026
