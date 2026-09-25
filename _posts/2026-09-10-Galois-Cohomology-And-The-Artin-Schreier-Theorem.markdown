@@ -69,6 +69,7 @@ Since the cohomology group is nontrivial for us, this implies $p=2$. $\square$
 *Remark.* One interesting thing about this approach is that the lemma we applied, 9.1.4, is primarily used in the proof of the Grunwald-Wang theorem, and the exceptional case that is enabling the Artin-Schreier theorem is *exactly* that problem that causes the special case in the Grunwald-Wang theorem. We recall that the Grunwald-Wang theorem says either
  - If $K$ is a number field and $x\in K$, then $x$ is an $n$th power if it is an $n$th power in $K_{\mathfrak{p}}$ for all primes $\mathfrak{p}$ of $K$ outside a finite set $T$, unless you are in a niche special case involving $2$.
  - (Dualy) If $K$ is a number field, $T$ is a finite set of primes, and you specify abelian extensions $L_{\mathfrak{p}}/K_{\mathfrak{p}}$, then there is a global extension $L/K$ that realizes all of those local extensions, unless you are in a niche special case involving $2$.
+
 For a description of what that special case is, see [NSW] Theorems 9.1.11 and 9.2.8.
 
 **Method 2.** Consider the cyclotomic character, $\chi:G_F \to \text{Aut}\_{\mathbb{Z}}(\mu_{p^\infty})$. We know this homomorphism is nontrivial because $\mu_{p^2}\not \subseteq F$, and since $G_F$ is simple this in fact implies $G_F\subseteq \text{Aut}\_{\mathbb{Z}}(\mu_{p^\infty})$. But that latter group is isomorphic to $\mathbb{Z}_p^\times$, so we have
