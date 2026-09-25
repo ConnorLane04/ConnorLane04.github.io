@@ -57,9 +57,12 @@ Ok, now that we have $\mu_{p^2}\not \subseteq F$, there are two ways to conclude
 **Method 1.** Since $\mu_{p^2}\not \in F$, we get an injection $G_F \to \text{Aut}(\mu_{p^2})=(\mathbb{Z}/p^2\mathbb{Z})^\times$. By our previous discussion, we have $H^1(G_F,\mu_{p^2})\neq 0$, so in abstract group-theoretic terms what we have is a subgroup $G=G_F$ of $(\mathbb{Z}/p^2\mathbb{Z})^2$ and the nonvanishing of $H^1(G,\mathbb{Z}/p^2\mathbb{Z})$. But cohomology groups of this group have been computed in complete generality. See this result in [NSW]
 
 > **9.1.4 Lemma** Let $p$ be a prime number, $m\geq 1$ a natural number, and let $G\subseteq (\mathbb{Z}/p^m\mathbb{Z})^\times$ be a subgroup. Let $A$ be the $G$-module which is isomorphic to $\mathbb{Z}/p^m\mathbb{Z}$ as an abelian group and on which $G$ acts in the canonical way. Then
->  $$\hat{H}^i(G,A)=0\quad \text{ for all }i\in \mathbb{Z},$$
-> unless $p=2$, $m>1$, and $-1\in G$, in which case 
-> $$\hat{H}^i(G,A)\cong \mathbb{Z}/2\mathbb{Z}\quad \text{ for all }i\in \mathbb{Z}.$$
+
+ $$\hat{H}^i(G,A)=0\quad \text{ for all }i\in \mathbb{Z},$$
+ 
+> unless $p=2$, $m>1$, and $-1\in G$, in which case
+
+$$\hat{H}^i(G,A)\cong \mathbb{Z}/2\mathbb{Z}\quad \text{ for all }i\in \mathbb{Z}.$$
 
 Since the cohomology group is nontrivial for us, this implies $p=2$. $\square$
 
