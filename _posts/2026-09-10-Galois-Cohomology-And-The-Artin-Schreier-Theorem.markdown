@@ -60,6 +60,7 @@ Ok, now that we have $\mu_{p^2}\not \subseteq F$, there are two ways to conclude
 >  $$\hat{H}^i(G,A)=0\quad \text{ for all }i\in \mathbb{Z},$$
 > unless $p=2$, $m>1$, and $-1\in G$, in which case 
 > $$\hat{H}^i(G,A)\cong \mathbb{Z}/2\mathbb{Z}\quad \text{ for all }i\in \mathbb{Z}.$$
+
 Since the cohomology group is nontrivial for us, this implies $p=2$. $\square$
 
 *Remark.* One interesting thing about this approach is that the lemma we applied, 9.1.4, is primarily used in the proof of the Grunwald-Wang theorem, and the exceptional case that is enabling the Artin-Schreier theorem is *exactly* that problem that causes the special case in the Grunwald-Wang theorem. We recall that the Grunwald-Wang theorem says either
