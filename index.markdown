@@ -19,6 +19,8 @@ My senior thesis advisor was [Dr. Tim All](https://www.rose-hulman.edu/academics
 
 In the summer of 2024, I worked under [Dr. Hui Xue](https://huixue.people.clemson.edu/) in the [Clemson REU in number theory](https://huixue.people.clemson.edu/REU.html), where we studied Rankin-Cohen brackets of modular forms and elliptic curves over finite fields.
 
+I believe AI is harmful to humanity and mathematics. I do not use it in my research in any form and have no plans to.
+
 You can find my CV [here][1].
 
 [1]:/downloads/CV.pdf
