@@ -9,6 +9,8 @@ title: Home
 "early on in my research career, I decided that I didn’t want to represent functors, but would rather solve Diophantine equations. Now, I find myself representing functors in order to solve Diophantine equations."
       -Lenstra
 
+# Me
+
 I'm a 22-year-old grad student at [UCSB](https://www.ucsb.edu/) in the second year of my PhD. I completed my undergraduate studies at [Rose-Hulman](https://www.rose-hulman.edu/index.html) with a bachelor in math and minors in CS and theoretical physics. When I'm not doing math, you can usually find me hiking, skiing, or generally enjoying the outdoors. I also love sharing mathematics with others, for example as a Counselor for [Ross](https://rossprogram.org/).
 
 I like basically every topic in pure math, but my particular favorite subject is algebraic number theory, especially Iwasawa theory and Galois cohomology. I spent two years reading all of Neukirch, Schmidt, and Wingberg's [Cohomology of Number Fields](https://link.springer.com/book/10.1007/978-3-540-37889-1), and I owe a lot of my mathematical development to it. My favorite theorems are Artin reciprocity, the Iwasawa main conjecture (for totally real number fields), and the Neukirch-Uchida theorem. I also really like arithmetic duality theorems, and their relations to analogies like the function field analogy or arithmetic topology.
@@ -19,7 +21,11 @@ My senior thesis advisor was [Dr. Tim All](https://www.rose-hulman.edu/academics
 
 In the summer of 2024, I worked under [Dr. Hui Xue](https://huixue.people.clemson.edu/) in the [Clemson REU in number theory](https://huixue.people.clemson.edu/REU.html), where we studied Rankin-Cohen brackets of modular forms and elliptic curves over finite fields.
 
+# AI
+
 I believe AI is harmful to humanity and mathematics. I do not use it in my research in any form and have no plans to.
+
+# CV
 
 You can find my CV [here][1].
 
