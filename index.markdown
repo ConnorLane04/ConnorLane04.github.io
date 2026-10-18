@@ -23,7 +23,7 @@ In the summer of 2024, I worked under [Dr. Hui Xue](https://huixue.people.clemso
 
 # AI
 
-I believe AI is harmful to humanity and mathematics. I do not use it in my research in any form and have no plans to.
+I believe modern LLMs are harmful to humanity and mathematics. I do not use it in my research or teaching in any form and have no plans to.
 
 # CV
 
