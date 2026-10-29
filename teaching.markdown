@@ -15,8 +15,10 @@ Rough outline of my TAing experience:
 - In Winter 2024, I was a grader for MA470 (Galois Theory) at RHIT
 
 In terms of things other than TAing:
-- In Fall 2024-Spring 2025, I will be an organizer and mentor for the [UCSB DRP](https://www.ucsbdrp.org/)
-- In Summer 2026, I will be a counselor at [Ross](https://rossprogram.org/)
+- In Fall 2026, I was the UCSB Putnam Coach
+- In Fall 2026, I was a mentor for [RP^2](https://rp2.rossprogram.org/)
+- In Fall 2026-Spring 2027, I was organizer and mentor for the [UCSB DRP](https://www.ucsbdrp.org/)
+- In Summer 2026, I was be a counselor at [Ross](https://rossprogram.org/)
 - In Winter-Spring 2025, I was a UCSB DRP mentor, with the topic of elliptic curves
 - In Summer 2025, I was a counselor at Ross and also a course designer for algebraic number theory
 - In Summer 2023, I was a counselor at Ross
