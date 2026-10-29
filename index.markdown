@@ -6,20 +6,20 @@ layout: home
 title: Home
 ---
 
-"early on in my research career, I decided that I didn’t want to represent functors, but would rather solve Diophantine equations. Now, I find myself representing functors in order to solve Diophantine equations."
+``early on in my research career, I decided that I didn’t want to represent functors, but would rather solve Diophantine equations. Now, I find myself representing functors in order to solve Diophantine equations.''
       -Lenstra
 
 # Me
 
-I'm a 22-year-old grad student at [UCSB](https://www.ucsb.edu/) in the second year of my PhD. I completed my undergraduate studies at [Rose-Hulman](https://www.rose-hulman.edu/index.html) with a bachelor in math and minors in CS and theoretical physics. When I'm not doing math, you can usually find me hiking, skiing, or generally enjoying the outdoors. I also love sharing mathematics with others, for example as a Counselor for [Ross](https://rossprogram.org/).
+I'm a grad student at [UCSB](https://www.ucsb.edu/) in the second year of my PhD, advised by [Francesc Castella](https://web.math.ucsb.edu/~castella/). My studies are supported by the [NSF GRFP](https://www.nsf.gov/funding/initiatives/grfp). In addition to taking classes and doing research, I organize the [UCSB DRP](https://www.ucsbdrp.org/), coach our Putnam team, and somehow I keep being tricked into organizing seminars on subjects related to infinity categories despite that not being my research area...
 
-I like basically every topic in pure math, but my particular favorite subject is algebraic number theory, especially Iwasawa theory and Galois cohomology. I spent two years reading all of Neukirch, Schmidt, and Wingberg's [Cohomology of Number Fields](https://link.springer.com/book/10.1007/978-3-540-37889-1), and I owe a lot of my mathematical development to it. My favorite theorems are Artin reciprocity, the Iwasawa main conjecture (for totally real number fields), and the Neukirch-Uchida theorem. I also really like arithmetic duality theorems, and their relations to analogies like the function field analogy or arithmetic topology.
+I completed my undergraduate degree at [Rose-Hulman](https://www.rose-hulman.edu/index.html) with a bachelor in math and minors in CS and theoretical physics. My senior thesis there was advised by [Tim All](https://www.rose-hulman.edu/academics/faculty/all-timothy-all1.html). I also attended the [Clemson REU in number theory](https://huixue.people.clemson.edu/REU.html) and did research advised by [Hui Xue](https://huixue.people.clemson.edu/).
 
-At UCSB, I am learning about the Iwasawa theory of elliptic curves from [Dr. Francesc Castella](https://web.math.ucsb.edu/~castella/). Right now, I am working on projects related to nonvanishing of Kolyvagin systems and CM elliptic curves.
+I am very passionate about math popularization and teaching, especially when it comes to motivated high school students and undergraduates. I am a 3x counselor for the [Ross Mathematics Program](https://rossprogram.org/) and a 1x mentor for [RP^2](https://rp2.rossprogram.org/). Some highlights of my time with these programs are giving 10-hour-long lectures, fights to the death over commutative vs noncommutative algebra, and eating cat food. 
 
-My senior thesis advisor was [Dr. Tim All](https://www.rose-hulman.edu/academics/faculty/all-timothy-all1.html), where we looked at p-adic L-functions and Iwasawa theory. I also had the pleasure of working for him in 2023 and 2025 as a Ross counselor.
+I like basically every topic in pure math, but my particular favorite subject is algebraic number theory, especially Iwasawa theory and Galois cohomology. I spent two years reading all of Neukirch, Schmidt, and Wingberg's [Cohomology of Number Fields](https://link.springer.com/book/10.1007/978-3-540-37889-1), and I owe a lot of my mathematical development to it. My favorite theorem is the Neukirch-Uchida theorem. I also really like arithmetic duality theorems, and their relations to analogies like the function field analogy or arithmetic topology.
 
-In the summer of 2024, I worked under [Dr. Hui Xue](https://huixue.people.clemson.edu/) in the [Clemson REU in number theory](https://huixue.people.clemson.edu/REU.html), where we studied Rankin-Cohen brackets of modular forms and elliptic curves over finite fields.
+When I'm not doing math, you can usually find me hiking, skiing, or generally enjoying the outdoors. Every weekend you'll find me somewhere in the Transverse ranges, but the specific location depends on how I was feeling about 30 minutes before I left.
 
 # AI
 
