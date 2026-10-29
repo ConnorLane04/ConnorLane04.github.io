@@ -19,7 +19,7 @@ I am very passionate about math popularization and teaching, especially when it 
 
 I like basically every topic in pure math, but my particular favorite subject is algebraic number theory, especially Iwasawa theory and Galois cohomology. I spent two years reading all of Neukirch, Schmidt, and Wingberg's [Cohomology of Number Fields](https://link.springer.com/book/10.1007/978-3-540-37889-1), and I owe a lot of my mathematical development to it. My favorite theorem is the Neukirch-Uchida theorem. I also really like arithmetic duality theorems, and their relations to analogies like the function field analogy or arithmetic topology.
 
-When I'm not doing math I'm hiking, skiing, or generally enjoying the outdoors. Every weekend you'll find me somewhere in the Transverse ranges, but the specific location depends on how I was feeling about 30 minutes before I left.
+When I'm not doing math I'm hiking, skiing, or generally enjoying the outdoors. Every weekend you'll find me somewhere in the Transverse ranges, but the specific mountain depends on how I was feeling about 30 minutes before I left.
 
 # AI
 
